@@ -4,6 +4,7 @@ import { StaticQuery, graphql } from 'gatsby';
 import GitHubButton from 'react-github-btn';
 import Link from './link';
 import Loadable from 'react-loadable';
+import Logo from '../components/images/logo.png'
 
 import config from '../../config.js';
 import LoadingProvider from './mdxComponents/loading';
@@ -11,7 +12,7 @@ import { DarkModeSwitch } from './DarkModeSwitch';
 
 const help = require('./images/help.svg');
 
-const isSearchEnabled = config.header.search && config.header.search.enabled;
+const isSearchEnabled = config.header.search && config.header.search.enabled ? true : false;
 
 let searchIndices = [];
 
@@ -76,26 +77,116 @@ const Header = ({ location, isDarkThemeActive, toggleActiveTheme }) => (
       }
     `}
     render={(data) => {
+      const twitter = require('./images/twitter.svg');
+
+      const discordBrandsBlock = require('./images/discord-brands-block.svg');
+
+      const twitterBrandsBlock = require('./images/twitter-brands-block.svg');
+
       const {
         site: {
           siteMetadata: { headerTitle, githubUrl, helpUrl, tweetText, logo, headerLinks },
         },
       } = data;
 
+      const finalLogoLink = logo.link !== '' ? logo.link : 'https://hasura.io/';
+
       return (
         <div className={'navBarWrapper'}>
           <nav className={'navBarDefault'}>
-            <div className={'navBarHeader'}>Nova</div>
+            <div className={'navBarHeader'}>
+              <Link to={finalLogoLink} className={'navBarBrand'}>
+                <img
+                  className={'img-responsive displayInline'}
+                  src={logo.image !== '' ? logo.image : Logo}
+                  alt={'logo'}
+                />
+              </Link>
+              <div
+                className={'headerTitle displayInline'}
+                dangerouslySetInnerHTML={{ __html: headerTitle }}
+              />
+            </div>
+            {config.header.social ? (
+              <ul
+                className="socialWrapper visibleMobileView"
+                dangerouslySetInnerHTML={{ __html: config.header.social }}
+              ></ul>
+            ) : null}
+            {isSearchEnabled ? (
+              <div className={'searchWrapper hiddenMobile navBarUL'}>
+                <LoadableComponent collapse={true} indices={searchIndices} />
+              </div>
+            ) : null}
             <div id="navbar" className={'topnav'}>
               <div className={'visibleMobile'}>
                 <Sidebar location={location} />
                 <hr />
               </div>
+              <ul className={'navBarUL navBarNav navBarULRight'}>
+                {headerLinks.map((link, key) => {
+                  if (link.link !== '' && link.text !== '') {
+                    return (
+                      <li key={key}>
+                        <a
+                          className="sidebarLink"
+                          href={link.link}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          dangerouslySetInnerHTML={{ __html: link.text }}
+                        />
+                      </li>
+                    );
+                  }
+                })}
+                {helpUrl !== '' ? (
+                  <li>
+                    <a href={helpUrl}>
+                      <img src={help} alt={'Help icon'} />
+                    </a>
+                  </li>
+                ) : null}
 
-              <DarkModeSwitch
-                isDarkThemeActive={isDarkThemeActive}
-                toggleActiveTheme={toggleActiveTheme}
-              />
+                {tweetText !== '' ? (
+                  <li>
+                    <a
+                      href={'https://twitter.com/intent/tweet?&text=' + tweetText}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <img className={'shareIcon'} src={twitter} alt={'Twitter'} />
+                    </a>
+                  </li>
+                ) : null}
+                {tweetText !== '' || githubUrl !== '' ? (
+                  <li className="divider hiddenMobile"></li>
+                ) : null}
+                {config.header.social ? (
+                  <li className={'hiddenMobile'}>
+                    <ul
+                      className="socialWrapper"
+                      dangerouslySetInnerHTML={{ __html: config.header.social }}
+                    ></ul>
+                  </li>
+                ) : null}
+                {githubUrl !== '' ? (
+                  <li className={'githubBtn'}>
+                    <GitHubButton
+                      href={githubUrl}
+                      data-show-count="true"
+                      aria-label="Star on GitHub"
+                    >
+                      Star
+                    </GitHubButton>
+                  </li>
+                ) : null}
+                <li>
+                  <DarkModeSwitch
+                    isDarkThemeActive={isDarkThemeActive}
+                    toggleActiveTheme={toggleActiveTheme}
+                  />
+                </li>
+              </ul>
             </div>
           </nav>
           <StyledBgDiv isDarkThemeActive={isDarkThemeActive}>
