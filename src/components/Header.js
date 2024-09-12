@@ -11,7 +11,7 @@ import { DarkModeSwitch } from './DarkModeSwitch';
 
 const help = require('./images/help.svg');
 
-const isSearchEnabled = config.header.search && config.header.search.enabled ? true : false;
+const isSearchEnabled = config.header.search && config.header.search.enabled;
 
 let searchIndices = [];
 
@@ -81,8 +81,6 @@ const Header = ({ location, isDarkThemeActive, toggleActiveTheme }) => (
           siteMetadata: { headerTitle, githubUrl, helpUrl, tweetText, logo, headerLinks },
         },
       } = data;
-
-      const finalLogoLink = logo.link !== '' ? logo.link : 'https://hasura.io/';
 
       return (
         <div className={'navBarWrapper'}>
