@@ -3,14 +3,12 @@ import { css } from '@emotion/react';
 export const baseStyles = css`
   @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap');
   @import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap');
-
   * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-display: swap;
   }
-
   ::-webkit-input-placeholder {
     /* Edge */
     color: #c2c2c2;
@@ -24,7 +22,6 @@ export const baseStyles = css`
   ::placeholder {
     color: #c2c2c2;
   }
-
   html,
   body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Roboto Light', 'Oxygen',
@@ -43,32 +40,25 @@ export const baseStyles = css`
   body {
     font-family: 'Roboto';
   }
-
   .visibleMobile {
     display: none;
   }
-
   .visibleMobileView {
     display: none !important;
   }
-
   .video-responsive {
     position: relative;
     padding-bottom: 56.2%;
   }
-
   a {
     text-decoration: none;
   }
-
   a:hover {
     text-decoration: none;
   }
-
   .displayInline {
     display: inline-block;
   }
-
   .navBarToggle {
     border: 0px solid #fff;
     border-radius: 4px;
@@ -79,7 +69,6 @@ export const baseStyles = css`
     padding: 8px 5px;
     display: none;
   }
-
   .navBarToggle .iconBar {
     display: block;
     width: 22px;
@@ -87,13 +76,11 @@ export const baseStyles = css`
     border-radius: 1px;
     margin: 0 auto;
     margin-top: 4px;
-    background-color: #e2e8f0;
+    background-color: #001934;
   }
-
   .navBarToggle .iconBar:first-child {
     margin-top: 0px;
   }
-
   .video-responsive iframe {
     position: absolute;
     width: 100%;
@@ -109,25 +96,21 @@ export const baseStyles = css`
     color: red;
     background-color: #ffcccc;
   }
-
   .navBarParent {
     width: 100%;
     float: left;
     display: flex;
     align-items: center;
   }
-
   .divider {
     height: 30px;
     margin: 0 15px;
     border-right: 1px solid rgba(255, 255, 255, 0.3);
   }
-
   .navBarULRight {
     /* position: absolute;
   right: 30px; */
   }
-
   .githubIcon {
     width: 15px;
     margin-right: 5px;
@@ -160,35 +143,31 @@ export const baseStyles = css`
     display: flex;
     align-items: center;
   }
-
   .formElement {
     background-color: transparent;
     padding: 4px;
     border-radius: 5px;
     position: relative;
   }
-
   .formElement:focus {
     outline: none;
     border: none;
   }
-
   .formElement svg path {
     fill: #2fd2c5;
   }
-
   .searchInput {
     width: 100%;
-    background-color: rgba(28, 211, 198, 0.12) !important;
+    background-color: rgba(28,211,198,.12) !important;
     border-width: 0 !important;
-    color: #c2c2c2;
+    color: #C2C2C2;
     padding: 10px;
     border-radius: 5px;
-    opacity: 0.6;
+    color: #fff;
+    opacity: .6;
     padding-left: 38px;
     max-width: 600px;
   }
-
   .searchInput:focus,
   .searchInput:visited,
   .searchInput:hover,
@@ -196,18 +175,15 @@ export const baseStyles = css`
     outline: none;
     border: 0;
   }
-
   .searchWrapper {
     padding-left: 0px;
     padding-right: 20px;
     flex: 1;
     position: relative;
   }
-
   .searchWrapper a {
     font-weight: 500;
   }
-
   .hitWrapper {
     background-color: #fff;
     padding: 0.7em 1em 0.4em;
@@ -223,44 +199,36 @@ export const baseStyles = css`
     overflow: scroll;
     left: 0;
   }
-
   .hitWrapper ul li {
     margin-top: 0.7em;
     padding-top: 0.7em;
     border-top: 1px solid;
     list-style-type: none;
   }
-
   .hitWrapper ul li:first-child {
     border-top: 0px;
     margin-top: 0px;
     color: black !important;
     padding: 0px;
   }
-
   .showResults {
     display: block;
   }
-
   .hideResults {
     display: none;
   }
-
   .hitWrapper span {
     color: black;
     font-size: 14px;
   }
-
   .headerTitle {
     height: auto;
     font-size: 16px;
     line-height: 1.5;
     font-weight: 300;
     color: #fff !important;
-    margin-top: 16px;
     text-transform: uppercase;
   }
-
   .headerTitle a {
     color: #fff;
   }
@@ -269,7 +237,6 @@ export const baseStyles = css`
     text-decoration: none;
     opacity: 0.8;
   }
-
   .logoWrapper {
     padding: 21px 0;
     padding-left: 20px;
@@ -285,17 +252,15 @@ export const baseStyles = css`
   }
 
   /* Header section starts here */
-
   .removePadd {
     padding: 0 !important;
   }
-
   .navBarDefault {
-    background-color: #e2e8f0;
+    background-color: #001934;
     border-radius: 0;
     border-top: 0;
     margin-bottom: 0;
-    //border: 0;
+    border: 0;
     display: flex;
     align-items: center;
     box-shadow: -1px 0px 4px 1px rgba(175, 158, 232, 0.4);
@@ -313,15 +278,11 @@ export const baseStyles = css`
   }
 
   .navBarHeader {
-    min-width: 95%;
+    min-width: 335px;
     padding-right: 20px;
     display: flex;
     align-items: center;
-    font-size: 1.875rem;
-    font-weight: 300;
-    color: #000;
   }
-
   .navBarBrand {
     padding: 0px 0px;
     display: flex;
@@ -329,19 +290,15 @@ export const baseStyles = css`
   }
 
   .navBarBrand img {
-    width: 120px;
     margin-right: 6px;
     display: inline-block;
   }
-
   .navBarUL li {
     list-style-type: none;
   }
-
   .navBarUL {
     -webkit-overflow-scrolling: touch;
   }
-
   .navBarUL li a {
     font-family: 'Roboto';
     color: #fff !important;
@@ -351,21 +308,17 @@ export const baseStyles = css`
     opacity: 1;
     padding: 10px 15px;
   }
-
   .navBarNav {
     display: flex;
     align-items: center;
   }
-
   .navBarUL li a img,
   .navBarUL li a .shareIcon {
     width: 20px;
   }
-
   .navBarUL li a:hover {
     opacity: 0.7;
   }
-
   pre {
     border: 0 !important;
     background-color: rgb(245, 247, 249); /* !important; */
@@ -378,22 +331,17 @@ export const baseStyles = css`
     border-left: 4px solid rgb(230, 236, 241);
     border-color: rgb(230, 236, 241);
   }
-
   .socialWrapper {
     display: flex;
     align-items: center;
   }
-
   .socialWrapper li {
     display: inline-block;
   }
-
   .socialWrapper li a {
     display: contents;
   }
-
-  .discordBtn,
-  .twitterBtn {
+  .discordBtn, .twitterBtn {
     border-radius: 4px;
     border: solid 1px #d1d2d3;
     background-color: #f1f5f8;
@@ -404,39 +352,32 @@ export const baseStyles = css`
     display: flex;
     align-items: center;
     justify-content: center;
-    opacity: 0.8;
+    opacity: .8;
     cursor: pointer;
   }
-
   .twitterBtn img {
     width: 12px !important;
   }
-
   .discordBtn img {
     width: 10px !important;
   }
-
-  .discordBtn:hover,
-  .twitterBtn:hover {
+  .discordBtn:hover, .twitterBtn:hover {
     opacity: 1;
   }
-
   .discordBtn {
     img {
       width: 10px;
     }
   }
-
   /* Header section ends here */
-
   .sidebarTitle {
     /* box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16); */
     background-color: #f8f8f8;
     padding: 18px 16px;
-    //font-family: 'Poppins';
+    font-family: 'Poppins';
     font-size: 18px;
     font-weight: 600;
-    color: #e2e8f0;
+    color: #001934;
     display: flex;
     align-items: center;
   }
@@ -446,7 +387,7 @@ export const baseStyles = css`
   }
 
   .sidebarTitle a {
-    color: #e2e8f0;
+    color: #001934;
   }
 
   .greenCircle {
@@ -509,18 +450,15 @@ export const baseStyles = css`
     right: 20px;
     z-index: 1;
     cursor: pointer;
-    color: #100101 !important;
   }
 
   .hideFrontLine .active > a {
-    background-color: #e2e8f0;
-    color: #100101 !important;
+    background-color: #1ed3c6;
+    color: #fff !important;
   }
-
   .firstLevel ul li .collapser svg path {
-    fill: #100101 !important;
+    fill: #fff !important;
   }
-
   .active .collapser > svg > path {
     fill: #001933 !important;
   }
@@ -535,7 +473,7 @@ export const baseStyles = css`
   }
 
   .sideBarUL .item > a {
-    color: #e2e8f0;
+    color: #1ED3C6;
     text-decoration: none;
     display: flex;
     align-items: center;
@@ -573,8 +511,8 @@ export const baseStyles = css`
     border-color: rgb(230, 236, 241) !important;
     border-style: solid none solid solid;
     border-width: 1px 0px 1px 1px;
-    background-color: #e2e8f0 !important;
-    color: #100101;
+    background-color: #1ed3c6 !important;
+    color: #fff;
   }
 
   .titleWrapper {
@@ -633,7 +571,6 @@ export const baseStyles = css`
   }
 
   /* tables.css */
-
   table {
     padding: 0;
   }
@@ -672,17 +609,13 @@ export const baseStyles = css`
   table tr td :last-child {
     margin-bottom: 0;
   }
-
   /* end - tables.css */
 
   /* Image styling */
-
   img {
     max-width: 100%;
   }
-
   /* end image */
-
   .githubBtn {
     display: flex;
     align-items: center;
@@ -691,7 +624,6 @@ export const baseStyles = css`
     padding-left: 15px;
     max-height: 40px;
   }
-
   .githubBtn span span {
     display: flex;
     align-items: center;
@@ -701,17 +633,14 @@ export const baseStyles = css`
     font-size: 24px;
     font-weight: 700;
   }
-
   .authorSection {
     padding: 20px 0;
   }
-
   .authorSection,
   .authorName {
     display: flex;
     align-items: center;
   }
-
   .authorImg img {
     width: 75px;
     height: 75px;
@@ -721,22 +650,18 @@ export const baseStyles = css`
     min-height: 75px;
     max-height: 75px;
   }
-
   .authorDetails {
     padding-left: 10px;
   }
-
   .authorDesc {
     padding-top: 5px;
     font-size: 14px;
   }
-
   .authorName img {
     margin-left: 10px;
     display: inline-block;
     width: 20px;
   }
-
   .authorName img:hover {
     opacity: 0.7;
   }
@@ -806,101 +731,83 @@ export const baseStyles = css`
     text-align: end;
     padding: 0;
   }
-
   .topnav {
     -webkit-transition: top 0.5s, bottom 0.5s;
   }
 
   @media (max-width: 767px) {
     .formElement svg path {
-      fill: #e2e8f0;
+      fill: #001934;
     }
-
     .visibleMobileView {
       display: block !important;
     }
-
     .searchInput {
-      color: #e2e8f0;
+      color: #001934;
     }
-
     .socialWrapper {
       position: absolute;
       right: 10px;
       top: 29px;
     }
-
     .responsive {
       margin-top: 15px;
       position: relative;
       padding-bottom: 20px;
       border-top: 1px solid #fff;
     }
-
     .headerTitle {
       padding-right: 50px;
       font-size: 16px;
     }
-
     .navBarBrand {
       min-height: 40px;
     }
-
     .navBarBrand img {
       margin-right: 8px;
     }
-
     .topnav.responsive .visibleMobile {
       display: block;
     }
-
     .topnav .navBarUL {
       display: none;
     }
-
     .topnav.responsive .navBarUL {
       display: block;
       text-align: left;
     }
-
     .hiddenMobile {
       display: none !important;
     }
-
     hr {
       margin-top: 0;
       margin-bottom: 0;
     }
-
     .navBarParent {
       display: block;
     }
-
     .separator {
       margin-top: 20px;
       margin-bottom: 20px;
     }
-
     .navBarULRight {
       position: static;
     }
-
     .navBarUL {
       display: flex;
       align-items: center;
       margin: 7.5px 0px;
     }
-
     .navBarUL li {
       height: 37px;
     }
-
     .navBarUL li a {
       font-size: 14px;
       padding: 10px 15px;
     }
 
     .navBarDefault {
+      display: block;
       height: auto;
     }
 
@@ -922,7 +829,7 @@ export const baseStyles = css`
 
     .navBarBrand {
       font-size: 20px;
-      //padding: 0 0;
+      padding: 0 0;
       padding-left: 0;
       flex: initial;
       padding-right: 15px;
@@ -952,7 +859,6 @@ export const baseStyles = css`
       left: 40px;
       top: 8px;
     }
-
     .hitWrapper {
       width: 100%;
       right: 0;
@@ -966,33 +872,26 @@ export const baseStyles = css`
     .navBarDefault {
       padding: 10px;
     }
-
     .navBarBrand {
       font-size: 22px;
     }
-
     .navBarHeader {
       min-width: 240px;
       flex: initial;
     }
-
     .githubBtn {
       padding: 10px 10px;
     }
-
     .divider {
       margin: 0 5px;
       height: 20px;
     }
-
     .hitWrapper {
       max-width: 500px;
     }
-
     .navBarUL li a {
       padding: 10px 5px;
     }
-
     .searchWrapper {
       padding-left: 0px;
     }
