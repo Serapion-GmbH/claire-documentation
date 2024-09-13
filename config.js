@@ -24,7 +24,9 @@ const config = {
   },
   sidebar: {
     forcedNavOrder: [
-      '/overview', // SideBar
+      '/overview',
+      '/services-and-integrations',
+      '/requirements',
       '/getting-started',
     ],
     collapsedNav: [
@@ -38,7 +40,7 @@ const config = {
   siteMetadata: {
     title: 'Gatsby Gitbook Boilerplate | Hasura',
     description: 'Documentation built with mdx. Powering hasura.io/learn ',
-    ogImage: "",
+    ogImage: '',
     docsLocation: '',
     favicon: 'https://cdn.freebiesupply.com/logos/large/2x/supergiant-logo-png-transparent.png',
   },

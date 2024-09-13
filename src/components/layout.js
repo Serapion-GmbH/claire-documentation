@@ -18,10 +18,8 @@ const Wrapper = styled('div')`
   }
 
   .sideBarUL .item > a:hover {
-    background: ${({ theme }) => theme.colors.main};
+    background: ${({ theme }) => theme.colors.hover};
     color: #100101 !important;
-
-    /* background: #F8F8F8 */
   }
 
   @media only screen and (max-width: 767px) {
@@ -59,7 +57,7 @@ const LeftSideBarWidth = styled('div')`
 `;
 
 const RightSideBarWidth = styled('div')`
-  width: 224px;
+  width: 300px;
 `;
 
 const Layout = ({ children, location }) => (

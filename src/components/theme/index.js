@@ -8,11 +8,12 @@ const lightTheme = {
   ...baseTheme,
   colors: {
     main: '#e2e8f0',
-    background: '#fff',
-    heading: '#000',
-    text: '#3B454E',
-    preFormattedText: 'rgb(245, 247, 249)',
-    link: '#1000EE',
+    background: '#f5f7fa',
+    heading: '#528fc9',
+    text: '#4A5568',
+    preFormattedText: '#e9eef2',
+    link: '#0b0172',
+    hover: '#80b0ee',
   },
 };
 
@@ -21,10 +22,11 @@ const darkTheme = {
   colors: {
     main: '#e2e8f0',
     background: '#001933',
-    heading: '#fff',
-    text: '#fff',
-    preFormattedText: '#000',
-    link: '#1ED3C6',
+    heading: '#638dc0',
+    text: '#D1D5DB',
+    preFormattedText: '#2D3748',
+    link: '#3669a9',
+    hover: '#618dc5',
   },
 };
 
