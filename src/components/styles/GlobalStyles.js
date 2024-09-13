@@ -272,6 +272,11 @@ export const baseStyles = css`
     position: relative;
     height: 80px;
   }
+
+  .dark-mode .navBarDefault {
+    background-color: #073972;
+  }
+
   .navBarHeader {
     min-width: 335px;
     padding-right: 20px;
