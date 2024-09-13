@@ -4,7 +4,7 @@ import { StaticQuery, graphql } from 'gatsby';
 import GitHubButton from 'react-github-btn';
 import Link from './link';
 import Loadable from 'react-loadable';
-import Logo from '../components/images/logo.png'
+import Logo from '../components/images/logo-nova.svg';
 
 import config from '../../config.js';
 import LoadingProvider from './mdxComponents/loading';
