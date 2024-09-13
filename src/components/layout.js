@@ -18,7 +18,7 @@ const Wrapper = styled('div')`
   }
 
   .sideBarUL .item > a:hover {
-    background-color: #e2e8f0;
+    background: ${({ theme }) => theme.colors.main};
     color: #100101 !important;
 
     /* background: #F8F8F8 */
@@ -32,7 +32,7 @@ const Wrapper = styled('div')`
 const Content = styled('main')`
   display: flex;
   flex-grow: 1;
-  margin: 0px 88px;
+  margin: 0 88px;
   padding-top: 3rem;
   background: ${({ theme }) => theme.colors.background};
 

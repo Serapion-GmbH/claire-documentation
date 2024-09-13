@@ -309,7 +309,7 @@ export const baseStyles = css`
   }
 
   .dark-mode .navBarDefault {
-    background-color: red;
+    background-color: #073972;
   }
 
   .navBarHeader {
