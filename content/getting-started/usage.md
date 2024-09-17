@@ -15,7 +15,7 @@ You can view your monthly token consumption to monitor how much processing power
   <p><em>Example of monthly consumption by tokens</em></p>
 </div>
 
-### 2. Monthly Dollar Consumption
+### 2. Monthly Spending
 
 In addition to tokens, the app also provides an overview of your monthly costs in dollars. This helps you manage and forecast expenses associated with your bot usage.
 

@@ -42,7 +42,7 @@ const config = {
     description: 'Documentation built with mdx. Powering hasura.io/learn ',
     ogImage: '',
     docsLocation: '',
-    favicon: 'static/logo.svg',
+    favicon: 'src/components/images/logo-nova.svg',
   },
   pwa: {
     enabled: true,
@@ -54,12 +54,12 @@ const config = {
       theme_color: '#72688c',
       display: 'standalone',
       crossOrigin: 'use-credentials',
-      icon: `static/logo.svg`,
+      icon: 'src/components/images/logo-nova.svg',
       icons: [
         {
-          src: 'static/logo.svg',
+          src: 'src/components/images/logo-nova.svg',
           sizes: `512x512`,
-          type: `image/svg`,
+          type: `image/png`,
         },
       ],
     },
