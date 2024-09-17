@@ -8,7 +8,7 @@ export const StyledHeading = styled('h1')`
   padding: 0 16px;
   flex: 1;
   margin-top: 0;
-  padding-top: 0;
+  //padding-top: 0;
   color: ${(props) => props.theme.colors.heading};
 `;
 
@@ -26,10 +26,9 @@ export const Edit = styled('div')`
     cursor: pointer;
     border-radius: 3px;
     transition: all 0.2s ease-out 0s;
-    text-decoration: none;
-    color: rgb(36, 42, 49);
+    //color: rgb(36, 42, 49);
     background-color: rgb(255, 255, 255);
-    box-shadow: rgba(116, 129, 141, 0.1) 0px 1px 1px 0px;
+    box-shadow: rgba(116, 129, 141, 0.1) 0 1px 1px 0;
     height: 30px;
     padding: 5px 16px;
     &:hover {
@@ -46,9 +45,9 @@ export const StyledMainWrapper = styled.div`
   ol {
     -webkit-padding-start: 40px;
     -moz-padding-start: 40px;
-    -o-padding-start: 40px;
-    margin: 24px 0px;
-    padding: 0px 0px 0px 2em;
+    //-o-padding-start: 40px;
+    margin: 24px 0;
+    padding: 0 0 0 2em;
 
     li {
       font-size: 16px;
