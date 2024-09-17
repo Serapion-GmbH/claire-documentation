@@ -2,8 +2,6 @@
 title: "Overview"
 ---
 
-# Nova Overview
-
 Nova is a leading platform for creating and managing AI-powered chatbots. Whether for customer support, internal communication, or creative projects, Nova provides a robust and intuitive solution for developing custom chatbot experiences integrated with top AI models.
 
 ## Key Features

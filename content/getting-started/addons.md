@@ -73,15 +73,49 @@ By utilizing a Document Search Addon, organizations can enhance their AI systems
 
 ## 7. Installing and Managing Addons
 
-Installing and managing addons is typically a straightforward process. To install an addon in the AI system, follow these general steps:
+Installing and managing addons is a straightforward process. Follow these steps to install and configure an addon in the AI system.
 
-1. Go to the **Addons** section in the app.
-2. Browse or search for the desired addon (e.g., Document Search Addon).
-3. Click the **"Install"** button to begin the installation process.
-4. Follow the on-screen instructions to configure the addon (e.g., setting up file access, API keys, or other configurations).
-5. Once configured, activate the addon by clicking the **"Enable"** button.
+### Step 1: Go to the Addons Section
+Navigate to the **Addons** section in the app. This section can be found in the main navigation menu.
 
-After the addon is installed and activated, it will be available for use within the AI system. You can trigger the addon through actions, workflows, or manual user inputs, depending on how it has been integrated into the system.
+<div style="text-align: center;">
+  <img src="../images/navigate-addons.png" alt="Addons Section" />
+  <p><em>Navigate to the Addons section in the app</em></p>
+</div>
+
+### Step 2: Browse or Search for the Desired Addon
+In the Addons section, browse or use the search function to find the addon you want to install (e.g., Document Search Addon).
+
+<div style="text-align: center;">
+  <img src="../images/click-plus-addons.png" alt="Browse or Search Addon" />
+  <p><em>Browse or search for the desired addon</em></p>
+</div>
+
+### Step 3: Click the "Install" Button
+<div style="text-align: center;">
+  <img src="../images/install-addon-button.png" alt="Install Addon" />
+  <p><em>"Install" button to begin installation</em></p>
+</div>
+
+### Step 4: Configure the Addon
+Follow the on-screen instructions to configure the addon. This may include setting up required configurations.
+
+<div style="text-align: center;">
+  <img src="../images/configure-addon.png" alt="Configure Addon" />
+  <p><em>Configure the addon</em></p>
+</div>
+
+### Step 5: Activate the Addon
+After configuration, activate the addon by clicking **"Save"** button. This will make the addon available for use within the AI system.
+
+<div style="text-align: center;">
+  <img src="../images/activate-addon.png" alt="Activate Addon" />
+  <p><em>Activated addon</em></p>
+</div>
+
+### Summary
+You have successfully installed and activated an addon. The addon is now available for use within the AI system. You can integrate it into your workflows or use it as needed.
+
 
 ## 8. Challenges and Considerations
 
