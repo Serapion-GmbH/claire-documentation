@@ -15,6 +15,13 @@ const plugins = [
   {
     resolve: 'gatsby-source-filesystem',
     options: {
+      name: 'docs',
+      path: `${__dirname}/content/`,
+    },
+  },
+  {
+    resolve: 'gatsby-source-filesystem',
+    options: {
       name: 'images',
       path: `${__dirname}/src/components/images/`,
     },
