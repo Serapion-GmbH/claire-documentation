@@ -54,6 +54,7 @@ const config = {
       theme_color: '#72688c',
       display: 'standalone',
       crossOrigin: 'use-credentials',
+      icon: `static/logo.svg`,
       icons: [
         {
           src: 'static/logo.svg',
