@@ -1,94 +1,162 @@
 ---
 title: "LLM Providers"
 ---
-## Introduction
 
-Large Language Model (LLM) Providers are the cornerstone of AI-powered applications, offering the sophisticated language processing capabilities that drive various functionalities, from chatbots to advanced data analysis. Understanding LLM providers and their role within the AI ecosystem is crucial for leveraging their full potential and integrating them effectively into your applications.
+LLM (Large Language Model) Providers are essential for AI-powered applications. They offer advanced language processing capabilities for chatbots, virtual assistants, and more. This guide will help you understand and set up LLM providers effectively.
 
 ## 1. What is an LLM Provider?
 
-An LLM provider is an entity or system that offers access to Large Language Models (LLMs). These models are designed to understand, generate, and interact with human language in a way that mimics human-like comprehension and response. LLM providers supply the underlying AI technology that powers various applications, including chatbots, virtual assistants, and more.
+An LLM provider offers access to Large Language Models (LLMs) that understand and generate human-like language. They are crucial for applications requiring advanced language comprehension.
 
-### Key Functions of LLM Providers:
-- **Model Hosting**: LLM providers host the language models and make them available via APIs or other interfaces.
-- **Model Training**: Providers often train and fine-tune models on vast datasets to improve their performance and accuracy.
-- **API Access**: They offer API endpoints that developers and applications can use to integrate LLM capabilities into their systems.
-- **Scalability**: Providers ensure that the models can handle varying loads and scales based on demand.
+### Key Functions:
+- **Model Hosting**: Hosts language models available via APIs.
+- **Model Training**: Trains models on extensive datasets for better performance.
+- **API Access**: Provides APIs for integrating LLMs into applications.
+- **Scalability**: Ensures models handle varying loads effectively.
+----------------------------------
 
-## 2. Role in the Hierarchy
+## 2. Role in the AI Ecosystem
 
-In the hierarchy of AI systems, LLM providers sit at the top, serving as the primary source of language processing capabilities. They provide the foundational AI technology that other components, such as chatbots, data analytics tools, and other applications, rely on to function effectively.
+LLM providers are at the top of the AI hierarchy. They supply the core technology that powers applications like chatbots and data analysis tools.
 
 ### Hierarchical Structure:
-1. **LLM Providers**: At the top of the hierarchy, responsible for supplying the core language models and underlying technology.
-2. **Applications and Services**: These include chatbots, virtual assistants, and data analysis tools that leverage LLM capabilities.
-3. **End Users**: Users interact with applications and services powered by LLMs, benefiting from advanced language understanding and generation.
+1. **LLM Providers**: Provide core language models.
+2. **Applications and Services**: Utilize LLM capabilities.
+3. **End Users**: Interact with applications powered by LLMs.
+----------------------------------
 
 ## 3. Key Features of LLM Providers
 
-### 3.1 Model Types
-LLM providers may offer various types of models, including:
-- **General-Purpose Models**: Versatile models trained on diverse datasets to handle a wide range of topics and tasks.
-- **Domain-Specific Models**: Tailored models optimized for specific industries or applications, such as healthcare, finance, or customer support.
+### Model Types:
+- **General-Purpose Models**: Handle a wide range of tasks.
+- **Domain-Specific Models**: Tailored for specific industries.
 
-### 3.2 API Access
-Providers typically offer APIs that allow developers to:
-- **Send Queries**: Submit text or data to the model for processing.
-- **Receive Responses**: Get generated text, responses, or data from the model.
-- **Manage API Keys**: Secure access to the models through API keys or authentication tokens.
+### API Access:
+- **Send Queries**: Submit text or data for processing.
+- **Receive Responses**: Get responses or generated text.
+- **Manage API Keys**: Secure access to models.
 
-### 3.3 Model Customization
-Many providers offer options to:
-- **Fine-Tune Models**: Customize models based on specific needs or datasets.
-- **Train on Custom Data**: Train or adapt models using proprietary data to enhance performance for particular use cases.
+### Model Customization:
+- **Fine-Tune Models**: Customize based on needs.
+- **Train on Custom Data**: Improve performance with proprietary data.
 
-### 3.4 Scalability and Reliability
-Providers ensure that models are:
-- **Scalable**: Capable of handling varying levels of demand and traffic.
-- **Reliable**: Available and performant, with minimal downtime and consistent results.
+### Scalability and Reliability:
+- **Scalable**: Handles varying demand.
+- **Reliable**: Consistent performance with minimal downtime.
+----------------------------------
 
 ## 4. How to Choose an LLM Provider
 
-When selecting an LLM provider, consider the following factors:
-- **Model Performance**: Evaluate the accuracy, relevance, and quality of the model’s responses.
-- **API Features**: Check the availability of necessary features, such as text generation, sentiment analysis, or language translation.
-- **Scalability**: Ensure the provider can meet your needs in terms of scale and traffic.
-- **Cost**: Compare pricing models and choose a provider that fits within your budget.
-- **Support and Documentation**: Look for providers that offer robust support and detailed documentation to facilitate integration and troubleshooting.
+Consider these factors when choosing an LLM provider:
+- **Model Performance**: Check the quality of responses.
+- **API Features**: Ensure it offers the necessary features.
+- **Scalability**: Confirm it meets your scaling needs.
+- **Cost**: Compare pricing models.
+- **Support and Documentation**: Look for good support and documentation.
 
-## 5. Creating and Managing LLM Providers
+----------------------------------
 
-### 5.1 Creation
-To create an LLM provider, follow these steps:
-1. **Choose a Provider**: Select a provider that aligns with your needs and requirements.
-2. **Sign Up**: Register for an account with the provider to gain access to their models and API.
-3. **Obtain API Keys**: Generate API keys or access tokens for integrating the model into your applications.
-4. **Configure Settings**: Set up any necessary configurations, such as model parameters or access controls.
+## 5. Creating LLM Providers (Step-by-Step Guide)
 
-### 5.2 Management
-Manage your LLM provider by:
-- **Monitoring Usage**: Track API usage and performance metrics.
-- **Updating Configurations**: Adjust settings or configurations as needed to optimize performance.
-- **Scaling Resources**: Increase or decrease resources based on demand and usage patterns.
-- **Maintaining Security**: Implement security measures to protect API keys and ensure secure interactions with the model.
+### Step 1: Navigate to the LLM Providers Section
+To begin, go to the **LLM Providers** section in the app. This can be found in the main navigation menu.
+
+<div style="text-align: center;">
+  <img src="../images/navigate-llm-providers.png" alt="Navigate to LLM Providers Section" />
+  <p><em>Navigate to the LLM Providers section</em></p>
+</div>
+
+### Step 2: Click the "+" Button
+In the **LLM providers** section, lick the **"+"** button to add a new LLM provider.
+
+<div style="text-align: center;">
+  <img src="../images/click-plus-provider.png" alt="Click the '+' Button" />
+  <p><em>Click the '+' button to add a new LLM provider</em></p>
+</div>
+
+### Step 3: Choose an LLM Provider
+Select the type of LLM provider you want to add. Options include OpenAI, Anthropic, Groq, and Microsoft Azure. You can also search for specific providers.
+
+<div style="text-align: center;">
+  <img src="../images/choose-llm-provider.png" alt="Choose LLM Provider" />
+  <p><em>Select the LLM provider type or search for one</em></p>
+</div>
+
+### Step 4: Configure LLM Provider Form
+#### OpenAI LLM Provider (if selected)
+If you choose **OpenAI** LLM Provider, you will see a dialog where you can enter the following details:
+- **Title**: Name for the OpenAI provider.
+- **Description**: Brief description.
+- **API Key**: Your API key (pattern /^sk-[a-zA-Z0-9]{32,64}$/).
+- **Organization ID**: Optional.
+
+<div style="text-align: center;">
+  <img src="../images/open-ai-example-form.png" alt="OpenAI LLM Provider Form" />
+  <p><em>Example of a filled-out form for OpenAI</em></p>
+</div>
+
+#### Anthropic LLM Provider (if selected)
+If you choose **Anthropic** LLM Provider, you will see a dialog where you can enter the following details:
+- **Title**: Name for the Anthropic provider.
+- **Description**: Brief description.
+- **API Key**: Your API key (pattern /^cla-[a-zA-Z0-9]{40}$/).
+
+<div style="text-align: center;">
+  <img src="../images/anthropic-provider-example-form.png" alt="Anthropic LLM Provider Form" />
+  <p><em>Example of a filled-out form for Anthropic</em></p>
+</div>
+
+#### Groq LLM Provider (if selected)
+If you choose **Groq** LLM Provider, you will see a dialog where you can enter the following details:
+- **Title**: Name for the Groq provider.
+- **Description**: Brief description.
+- **API Key**: Your API key (pattern /^[a-zA-Z0-9-_]{40}$/).
+
+<div style="text-align: center;">
+  <img src="../images/groq-provider-form.png" alt="Groq LLM Provider Form" />
+  <p><em>Example of a filled-out form for Groq</em></p>
+</div>
+
+#### Microsoft Azure LLM Provider (if selected)
+If you choose **Microsoft Azure** LLM Provider, you will see a dialog where you can enter the following details:
+- **Title**: Name for the Azure provider.
+- **Description**: Brief description.
+- **API Key**: Your API key (pattern /^[a-zA-Z0-9]{32}$/).
+- **Azure Endpoint URL**: Enter the URL.
+- **Deployment Name**: Specify the deployment name (e.g., gpt-4o).
+
+<div style="text-align: center;">
+  <img src="../images/azure-provider-form.png" alt="Azure LLM Provider Form" style="object-fit: contain;" />
+  <p><em>Example of a filled-out form for Microsoft Azure</em></p>
+</div>
+
+
+Click **Save** to save the LLM Provider.
+
+### Summary
+You have successfully created a new LLM Provider in the Nova app.
+
+----------------------------------
 
 ## 6. Integration with Other Components
 
-LLM providers integrate with various components of AI systems, including:
-- **Chatbots**: Providing the language processing capabilities that enable conversational interactions.
-- **Data Analysis Tools**: Enhancing data insights through advanced language understanding and text processing.
-- **Virtual Assistants**: Powering intelligent responses and task management in personal and professional settings.
+LLM providers integrate with:
+- **Chatbots**: Enable conversational interactions.
+- **Data Analysis Tools**: Enhance insights through text processing.
+- **Virtual Assistants**: Power intelligent responses and task management.
+----------------------------------
+
 
 ## 7. Challenges and Considerations
 
-When working with LLM providers, consider the following challenges:
-- **Cost Management**: Monitor and manage costs associated with API usage and model access.
-- **Data Privacy**: Ensure that data sent to and from the provider is handled securely and in compliance with privacy regulations.
-- **Performance Optimization**: Continuously evaluate and optimize model performance based on user feedback and interaction data.
+Consider these challenges:
+- **Cost Management**: Monitor API usage costs.
+- **Data Privacy**: Ensure secure data handling.
+- **Performance Optimization**: Continuously improve model performance.
+----------------------------------
 
 ## Conclusion
 
-LLM providers play a pivotal role in the AI ecosystem, offering the advanced language processing capabilities that drive various applications and services. By understanding their features, choosing the right provider, and effectively managing integration, you can leverage LLMs to enhance your applications and deliver valuable experiences to users.
+LLM providers are vital in the AI ecosystem. By understanding their features and managing their integration, you can enhance your applications and deliver valuable user experiences.
 
-For further details on working with LLM providers, consult their documentation and support resources to ensure successful integration and optimal performance.
-
+For more details, consult the provider’s documentation and support resources.

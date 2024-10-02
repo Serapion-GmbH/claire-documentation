@@ -42,10 +42,10 @@ const config = {
     description: 'Documentation built with mdx. Powering hasura.io/learn ',
     ogImage: '',
     docsLocation: '',
-    favicon: 'https://cdn.freebiesupply.com/logos/large/2x/supergiant-logo-png-transparent.png',
+    favicon: 'src/components/images/logo-nova.svg',
   },
   pwa: {
-    enabled: true, // disabling this will also remove the existing service worker.
+    enabled: true,
     manifest: {
       name: 'Gatsby Gitbook Starter',
       short_name: 'GitbookStarter',
@@ -54,9 +54,10 @@ const config = {
       theme_color: '#72688c',
       display: 'standalone',
       crossOrigin: 'use-credentials',
+      icon: 'src/components/images/logo-nova.svg',
       icons: [
         {
-          src: 'src/components/images/logo.png',
+          src: 'src/components/images/logo-nova.svg',
           sizes: `512x512`,
           type: `image/png`,
         },
