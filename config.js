@@ -3,7 +3,7 @@ const config = {
     pathPrefix: '/nova-documentation',
     siteUrl: 'https://serapion-gmbh.github.io',
     gaTrackingId: null,
-    trailingSlash: true,
+    trailingSlash: false,
   },
   header: {
     logo: '',
