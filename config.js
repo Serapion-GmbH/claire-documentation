@@ -49,7 +49,7 @@ const config = {
     manifest: {
       name: 'Gatsby Gitbook Starter',
       short_name: 'GitbookStarter',
-      start_url: '/',
+      start_url: '/nova-documentation',
       background_color: '#716a7e',
       theme_color: '#72688c',
       display: 'standalone',
