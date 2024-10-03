@@ -38,8 +38,8 @@ const config = {
     title: '',
   },
   siteMetadata: {
-    title: 'Gatsby Gitbook Boilerplate | Hasura',
-    description: 'Documentation built with mdx. Powering hasura.io/learn ',
+    title: 'Nova App Documentation',
+    description: 'Documentation for Nova application',
     ogImage: '',
     docsLocation: '',
     favicon: 'src/components/images/logo-nova.svg',
@@ -47,8 +47,8 @@ const config = {
   pwa: {
     enabled: true,
     manifest: {
-      name: 'Gatsby Gitbook Starter',
-      short_name: 'GitbookStarter',
+      name: 'Nova App Documentation',
+      short_name: 'NovaDocs',
       start_url: '/',
       background_color: '#716a7e',
       theme_color: '#72688c',
