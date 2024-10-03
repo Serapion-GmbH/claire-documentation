@@ -1,6 +1,6 @@
 const config = {
   gatsby: {
-    pathPrefix: '/nova-documentation/',
+    pathPrefix: '/',
     siteUrl: '',
     gaTrackingId: null,
     trailingSlash: false,
