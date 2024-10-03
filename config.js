@@ -1,6 +1,6 @@
 const config = {
   gatsby: {
-    pathPrefix: 'https://serapion-gmbh.github.io/nova-documentation',
+    pathPrefix: '/nova-documentation',
     siteUrl: '',
     gaTrackingId: null,
     trailingSlash: false,
@@ -49,7 +49,7 @@ const config = {
     manifest: {
       name: 'Gatsby Gitbook Starter',
       short_name: 'GitbookStarter',
-      start_url: 'https://serapion-gmbh.github.io/nova-documentation',
+      start_url: '/',
       background_color: '#716a7e',
       theme_color: '#72688c',
       display: 'standalone',
