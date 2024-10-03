@@ -1,7 +1,7 @@
 const config = {
   gatsby: {
     pathPrefix: '/nova-documentation',
-    siteUrl: '',
+    siteUrl: 'https://serapion-gmbh.github.io/nova-documentation',
     gaTrackingId: null,
     trailingSlash: false,
   },
