@@ -111,7 +111,7 @@ module.exports = {
     helpUrl: config.header.helpUrl,
     tweetText: config.header.tweetText,
     headerLinks: config.header.links,
-    siteUrl: 'http://localhost:8000',
+    siteUrl: config.gatsby.siteUrl,
   },
   plugins: plugins,
   flags: {
