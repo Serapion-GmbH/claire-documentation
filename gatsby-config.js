@@ -27,8 +27,8 @@ const plugins = [
         {
           resolve: 'gatsby-remark-relative-links',
           options: {
-            root: __dirname,
-            domainRegex: /^https?:\/\/serapion-gmbh\.github\.io\/nova-documentation\/?/
+            root: `${__dirname}/content`,
+            domainRegex: /^https:\/\/serapion-gmbh\.github\.io\/nova-documentation\//,
           },
         },
         {
