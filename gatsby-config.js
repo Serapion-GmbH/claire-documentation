@@ -28,7 +28,8 @@ const plugins = [
           resolve: 'gatsby-remark-relative-links',
           options: {
             root: `${__dirname}/content`,
-            domainRegex: /^https:\/\/serapion-gmbh\.github\.io\/nova-documentation\//,
+            domainRegex: /^https:\/\/serapion-gmbh\.github\.io\//,
+            ignoreFileExtensions: [],
           },
         },
         {
@@ -39,7 +40,7 @@ const plugins = [
           }
         },
         {
-          resolve: 'gatsby-remark-copy-linked-files'
+          resolve: 'gatsby-remark-autolink-headers',
         }
       ],
       extensions: [".mdx", ".md"],
