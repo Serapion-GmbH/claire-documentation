@@ -79,7 +79,6 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
       value = '';
     }
 
-    // Adjust slug creation to account for pathPrefix
     const slugValue = config.gatsby && config.gatsby.trailingSlash
       ? value === '' ? `/` : `/${value}/`
       : `/${value}`;
@@ -87,7 +86,7 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
     createNodeField({
       name: `slug`,
       node,
-      value: `${pathPrefix}${slugValue}`, // Prepend the pathPrefix to the slug
+      value: `${pathPrefix}${slugValue}`, // Ensure slug includes pathPrefix
     });
 
     createNodeField({
