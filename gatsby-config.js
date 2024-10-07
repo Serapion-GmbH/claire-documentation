@@ -1,6 +1,7 @@
 require("dotenv").config();
 const queries = require("./src/utils/algolia");
 const config = require("./config");
+
 const plugins = [
   'gatsby-plugin-sitemap',
   'gatsby-plugin-sharp',
@@ -24,6 +25,12 @@ const plugins = [
     options: {
       gatsbyRemarkPlugins: [
         {
+          resolve: 'gatsby-remark-relative-links',
+          options: {
+            root: __dirname,
+          },
+        },
+        {
           resolve: "gatsby-remark-images",
           options: {
             maxWidth: 1035,
@@ -34,34 +41,38 @@ const plugins = [
           resolve: 'gatsby-remark-copy-linked-files'
         }
       ],
-      extensions: [".mdx", ".md"]
+      extensions: [".mdx", ".md"],
+      remarkPlugins: [],
+      rehypePlugins: [],
     }
   },
   {
     resolve: `gatsby-plugin-gtag`,
     options: {
-      // your google analytics tracking id
+      // Your Google Analytics tracking ID
       trackingId: config.gatsby.gaTrackingId,
       // Puts tracking script in the head instead of the body
       head: true,
-      // enable ip anonymization
+      // Enable IP anonymization
       anonymize: false,
     },
   },
 ];
-// check and add algolia
+
+// Add Algolia plugin if enabled
 if (config.header.search && config.header.search.enabled && config.header.search.algoliaAppId && config.header.search.algoliaAdminKey) {
   plugins.push({
     resolve: `gatsby-plugin-algolia`,
     options: {
-      appId: config.header.search.algoliaAppId, // algolia application id
-      apiKey: config.header.search.algoliaAdminKey, // algolia admin key to index
+      appId: config.header.search.algoliaAppId, // Algolia application ID
+      apiKey: config.header.search.algoliaAdminKey, // Algolia admin key to index
       queries,
       chunkSize: 10000, // default: 1000
-    }}
-  )
+    }
+  });
 }
-// check and add pwa functionality
+
+// Add PWA functionality if enabled
 if (config.pwa && config.pwa.enabled && config.pwa.manifest) {
   plugins.push({
     resolve: `gatsby-plugin-manifest`,
@@ -77,7 +88,7 @@ if (config.pwa && config.pwa.enabled && config.pwa.manifest) {
   plugins.push('gatsby-plugin-remove-serviceworker');
 }
 
-// check and remove trailing slash
+// Remove trailing slashes if disabled
 if (config.gatsby && !config.gatsby.trailingSlash) {
   plugins.push('gatsby-plugin-remove-trailing-slashes');
 }
@@ -90,7 +101,10 @@ module.exports = {
     docsLocation: config.siteMetadata.docsLocation,
     ogImage: config.siteMetadata.ogImage,
     favicon: config.siteMetadata.favicon,
-    logo: { link: config.header.logoLink ? config.header.logoLink : '/', image: config.header.logo }, // backwards compatible
+    logo: { 
+      link: config.header.logoLink ? config.header.logoLink : '/', 
+      image: config.header.logo 
+    }, // Backwards compatible
     headerTitle: config.header.title,
     githubUrl: config.header.githubUrl,
     helpUrl: config.header.helpUrl,
@@ -102,9 +116,9 @@ module.exports = {
   flags: {
     DEV_SSR: false,
     FAST_DEV: false, // Enable all experiments aimed at improving develop server start time
-    PRESERVE_WEBPACK_CACHE: false, // (Umbrella Issue (https://gatsby.dev/cache-clearing-feedback)) · Use webpack's persistent caching and don't delete webpack's cache when changing gatsby-node.js & gatsby-config.js files.
-    PRESERVE_FILE_DOWNLOAD_CACHE: false, // (Umbrella Issue (https://gatsby.dev/cache-clearing-feedback)) · Don't delete the downloaded files cache when changing gatsby-node.js & gatsby-config.js files.
-    PARALLEL_SOURCING: false, // EXPERIMENTAL · (Umbrella Issue (https://gatsby.dev/parallel-sourcing-feedback)) · Run all source plugins at the same time instead of serially. For sites with multiple source plugins, this can speedup sourcing and transforming considerably.
-    FUNCTIONS: false // EXPERIMENTAL · (Umbrella Issue (https://gatsby.dev/functions-feedback)) · Compile Serverless functions in your Gatsby project and write them to disk, ready to deploy to Gatsby Cloud
+    PRESERVE_WEBPACK_CACHE: false, // Prevent clearing of the webpack cache on changes to `gatsby-node.js` or `gatsby-config.js`
+    PRESERVE_FILE_DOWNLOAD_CACHE: false, // Prevent clearing of the downloaded files cache
+    PARALLEL_SOURCING: false, // Run all source plugins in parallel to improve build speed
+    FUNCTIONS: false // Experimental: Compile Serverless functions in your Gatsby project
   }
 };
