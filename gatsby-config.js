@@ -28,6 +28,7 @@ const plugins = [
           resolve: 'gatsby-remark-relative-links',
           options: {
             root: __dirname,
+            domainRegex: /^https?:\/\/serapion-gmbh\.github\.io\/nova-documentation\/?/
           },
         },
         {
@@ -101,9 +102,9 @@ module.exports = {
     docsLocation: config.siteMetadata.docsLocation,
     ogImage: config.siteMetadata.ogImage,
     favicon: config.siteMetadata.favicon,
-    logo: { 
-      link: config.header.logoLink ? config.header.logoLink : '/', 
-      image: config.header.logo 
+    logo: {
+      link: config.header.logoLink ? config.header.logoLink : '/',
+      image: config.header.logo
     }, // Backwards compatible
     headerTitle: config.header.title,
     githubUrl: config.header.githubUrl,
