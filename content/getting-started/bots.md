@@ -131,4 +131,4 @@ While bots bring many benefits, there are also challenges that need to be addres
 
 Bots, powered by LLMs, are highly versatile tools for automating user interactions and enhancing customer experiences. With the ability to personalize responses, handle complex queries, and operate around the clock, bots provide significant value in various AI applications.
 
-By carefully configuring the bot’s fields and thoroughly testing it during creation, you can ensure it performs well in real-world scenarios and meets the needs of your users. Don’t forget to first set up an LLM provider to unlock the full potential of your bot. [Learn more about LLM providers](../getting-started/llm-providers).
+By carefully configuring the bot’s fields and thoroughly testing it during creation, you can ensure it performs well in real-world scenarios and meets the needs of your users. Don’t forget to first set up an LLM provider to unlock the full potential of your bot. [Learn more about LLM providers](../../getting-started/llm-providers).
