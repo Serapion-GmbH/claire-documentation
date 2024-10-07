@@ -49,7 +49,7 @@ Start by logging into Nova’s dashboard and selecting the option to create a ne
 - **Define its purpose** (e.g., customer service bot, assistant, or information provider).
 - **Optionally, customize** how the chatbot should respond—whether it should have a formal tone, a friendly style, or something else.
 
-For more details, visit [Learn how to create a Chatbot](/getting-started/bots).
+For more details, visit [Learn how to create a Chatbot](../getting-started/bots).
 
 ## 4. Connect an AI Provider
 
