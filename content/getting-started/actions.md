@@ -61,7 +61,7 @@ If you choose **Webhook** as the action type, you will see a dialog where you ca
     - **Content-Type**: Defines the format of the data being sent, such as `application/json`.
     - **Authorization**: Provides credentials required for authentication, such as `Bearer your-token-here`.
 
-![Webhook Action Form](../../images/webhook-action-example-form.png)
+![Webhook Action Form](../images/webhook-action-example-form.png)
 
 - **Create Button**: Save the action configuration by clicking the **Create** button.
 - **Try Button**: Test the action by clicking the **Try** button.
