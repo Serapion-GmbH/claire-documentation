@@ -8,7 +8,7 @@ To start the app, follow these steps:
 
 1. Install dependencies:
    ```bash
-   yarn install1.
+   yarn install.
 
 2. Run the development server:
    ```bash
