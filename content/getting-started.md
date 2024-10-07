@@ -39,7 +39,7 @@ With your organization set up, the next step is to add your LLM (Large Language 
 4. **Configure Settings**: Set any additional configurations required by the provider.
 5. **Save**: Click “Save” to store your API key.
 
-For more details, visit [Learn how to create an LLM provider](/getting-started/llm-providers).
+For more details, visit [Learn how to create an LLM provider](./getting-started/llm-providers).
 
 ## 3. Create Your First Chatbot
 
