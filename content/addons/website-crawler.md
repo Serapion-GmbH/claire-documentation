@@ -16,11 +16,10 @@ The domain list is the primary interface where users can view and manage the dom
 - **View Domains**: All added domains are displayed in a list. Each domain entry includes options for editing or deleting the domain.
 
 <div style="text-align: center;">
-  <img src="../images/add-domain-domain-list.png" alt="Add Domain. Domain list." />
+  <img src="../images/domain-list.png" alt="Add Domain. Domain list." />
   <p><em>Click the '+' button to add a domain</em></p>
 </div>
 
-----------------------------------
 
 ### 2.2. Background Crawling
 When a domain is added to the system, crawling and fetching links occur in the background. This means users can perform other activities while the crawler operates. The results (i.e., the list of links) will be available when users click on the "Edit" button for the domain.
@@ -34,7 +33,6 @@ When a domain is added to the system, crawling and fetching links occur in the b
 
 </div>
 
-----------------------------------
 
 ### 2.3. Edit Domain
 Each domain has an Edit button that opens a new page containing a list of all the crawled links for that specific domain. The page provides several options for managing the links:
@@ -43,18 +41,10 @@ Each domain has an Edit button that opens a new page containing a list of all th
 - **Delete Link**: Each link has a delete button that allows users to remove the link and its associated content from the system.
 
 <div style="text-align: center;">
-  <img src="../images/link-list.png" alt="Link list" />
-  <p><em>Browse or search for the desired link</em></p>
+  <img src="../images/link-list-link-form.png" alt="Link list and edit link content" />
+  <p><em>Browse or search for the desired link and edit link content</em></p>
 </div>
 
-----------------------------------
-
-<div style="text-align: center;">
-  <img src="../images/edit-domain.png" alt="Edit domain" />
-  <p><em>Link information and editing link actions</em></p>
-</div>
-
-----------------------------------
 
 ### 2.4. Delete Domain
 Each domain in the list also has a Delete button, allowing users to remove the domain entirely from the system, including all associated links and content.

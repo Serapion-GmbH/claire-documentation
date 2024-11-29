@@ -58,20 +58,7 @@ AI systems support a wide range of addons, depending on the use case. Common typ
 
 - **Communication Addons**: These integrate with messaging platforms (e.g., Slack, Microsoft Teams) to send and receive information, notifications, or alerts.
 
-## 6. Document Search Addon: A Closer Look
-
-One of the most commonly used addons in AI systems is the **Document Search Addon**. This addon allows users to efficiently search through extensive collections of documents, files, and other textual data. Whether it’s a small internal knowledge base or a vast repository of customer data, this addon makes it easy for users to find the specific information they need.
-
-### Features of the Document Search Addon
-- **Fast Indexing**: It can index large volumes of documents in real-time, allowing for quick search and retrieval.
-- **Query Optimization**: The addon can interpret user queries, providing relevant results even when the exact search terms aren’t used.
-- **Integration with File Systems**: Document Search Addons often integrate with external file systems (e.g., Google Drive, SharePoint), allowing users to search files stored across different platforms.
-- **Search Suggestions**: As the user types, the addon can offer real-time search suggestions to improve accuracy and efficiency.
-- **Faceted Search**: Users can filter search results by categories such as date, file type, or relevance.
-
-By utilizing a Document Search Addon, organizations can enhance their AI systems with a robust and efficient tool for managing and accessing information. This is especially useful in industries where documentation and compliance are critical, such as healthcare, law, and finance.
-
-## 7. Installing and Managing Addons
+## 6. Installing and Managing Addons
 
 Installing and managing addons is a straightforward process. Follow these steps to install and configure an addon in the AI system.
 
@@ -91,10 +78,11 @@ In the Addons section, browse or use the search function to find the addon you w
   <p><em>Browse or search for the desired addon</em></p>
 </div>
 
-### Step 3: Click the "Install" Button
+### Step 3: Click the "Add action" Button
+
 <div style="text-align: center;">
-  <img src="../images/install-addon-button.png" alt="Install Addon" />
-  <p><em>"Install" button to begin installation</em></p>
+  <img src="../images/add-action-button.png" alt="Add action" />
+  <p><em>"Add action" button to begin addon activation</em></p>
 </div>
 
 ### Step 4: Configure the Addon
@@ -106,18 +94,19 @@ Follow the on-screen instructions to configure the addon. This may include setti
 </div>
 
 ### Step 5: Activate the Addon
-After configuration, activate the addon by clicking **"Save"** button. This will make the addon available for use within the AI system.
+After configuration, activate the addon by clicking **"Save"** button. This will make the addon available for use within the AI system. By clicking the 'Go to Addon' button, you can view more details about the selected addon.
 
 <div style="text-align: center;">
-  <img src="../images/activate-addon.png" alt="Activate Addon" />
-  <p><em>Activated addon</em></p>
+  <img src="../images/activate-addon-go-to-addon.png" alt="Activate Addon" />
+  <p><em>Activated addon and 'Go to addon' button</em></p>
 </div>
+
 
 ### Summary
 You have successfully installed and activated an addon. The addon is now available for use within the AI system. You can integrate it into your workflows or use it as needed.
 
 
-## 8. Challenges and Considerations
+## 7. Challenges and Considerations
 
 While addons offer powerful capabilities, there are some challenges and considerations to keep in mind:
 - **Compatibility**: Not all addons are compatible with every version of an AI system. Ensure that the addon you wish to install is compatible with your system.
