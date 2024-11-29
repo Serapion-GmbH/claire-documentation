@@ -28,6 +28,8 @@ const config = {
       '/services-and-integrations',
       '/requirements',
       '/getting-started',
+      '/addons',
+      '/organization-management',
     ],
     collapsedNav: [
       '/overview', // add trailing slash if enabled above
