@@ -10,7 +10,6 @@ The app provides managing organizations within the system, including updating or
   <p><em>Navigate to Organization Management</em></p>
 </div>
 
-----------------------------------
 
 ## 1. Organization Details
 The organization management section allows users to view and update the basic information about their organization.
@@ -22,7 +21,6 @@ The organization management section allows users to view and update the basic in
   <p><em>Organization name update form and delete, invite members option</em></p>
 </div>
 
-----------------------------------
 
 ## 2. Invite members
 The interface includes a feature to invite members to the organization by entering their email addresses. Invitations are sent to potential members, who can then join the organization.
@@ -31,8 +29,6 @@ The interface includes a feature to invite members to the organization by enteri
   <img src="images/invite-members-popup.png" alt="Invite members" />
   <p><em>Click on 'Invite Members' to send invitation</em></p>
 </div>
-
-----------------------------------
 
 ## 3. Member Management
 Each organization has a table that lists all its current members. The table provides important information about each member and allows users to manage their membership status.
@@ -48,7 +44,6 @@ The table includes the following details for each member:
   <p><em>Table with information about organization members</em></p>
 </div>
 
-----------------------------------
 
 ## 4. Organization Addons
 Each organization may have access to a variety of addons that can extend its functionality. These addons are listed in a right side panel within the organization management interface.
@@ -60,7 +55,6 @@ Each organization may have access to a variety of addons that can extend its fun
   <p><em>Browse or search for the desired addons available for organization</em></p>
 </div>
 
-----------------------------------
 
 ## 5. Usage Flow
 - **Update Organization Name**: Use the input field to modify the organization’s name and save the changes to update the information.
