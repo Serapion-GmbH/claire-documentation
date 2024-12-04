@@ -2,7 +2,7 @@
 title: "Overview"
 ---
 
-Nova is a leading platform for creating and managing AI-powered chatbots. Whether for customer support, internal communication, or creative projects, Nova provides a robust and intuitive solution for developing custom chatbot experiences integrated with top AI models.
+Claire is a leading platform for creating and managing AI-powered chatbots. Whether for customer support, internal communication, or creative projects, Claire provides a robust and intuitive solution for developing custom chatbot experiences integrated with top AI models.
 
 ## Key Features
 
@@ -26,11 +26,11 @@ Nova is a leading platform for creating and managing AI-powered chatbots. Whethe
 
 ## Use Cases
 
-Nova is a versatile platform with applications across various industries. Here are just a few ways you can leverage Nova’s capabilities:
+Claire is a versatile platform with applications across various industries. Here are just a few ways you can leverage Claire’s capabilities:
 
 ### 1. Customer Support Automation
 **Problem:** Businesses often struggle with high volumes of customer inquiries, leading to delayed responses and customer dissatisfaction.
-**Solution:** Nova enables the creation of AI-powered chatbots to automate responses to common support queries, provide real-time assistance, and escalate issues to human agents when necessary. This helps reduce the workload on customer support teams while maintaining a high-quality user experience.
+**Solution:** Claire enables the creation of AI-powered chatbots to automate responses to common support queries, provide real-time assistance, and escalate issues to human agents when necessary. This helps reduce the workload on customer support teams while maintaining a high-quality user experience.
 **Key Benefits:**
 - 24/7 support availability
 - Faster resolution of frequently asked questions (FAQs)
@@ -38,7 +38,7 @@ Nova is a versatile platform with applications across various industries. Here a
 
 ### 2. Education & Training
 **Problem:** Traditional education methods can lack personalization and interaction, leading to reduced engagement and retention.
-**Solution:** Nova enables the development of interactive educational tools, such as AI tutors or learning assistants, that provide personalized feedback, answer student queries in real-time, and deliver interactive quizzes and learning modules. This enhances the learning experience by offering personalized and adaptive content.
+**Solution:** Claire enables the development of interactive educational tools, such as AI tutors or learning assistants, that provide personalized feedback, answer student queries in real-time, and deliver interactive quizzes and learning modules. This enhances the learning experience by offering personalized and adaptive content.
 **Key Benefits:**
 - Personalized learning paths based on student performance
 - Real-time feedback and support for learners
@@ -46,7 +46,7 @@ Nova is a versatile platform with applications across various industries. Here a
 
 ### 3. Content Creation & Ideation
 **Problem:** Content creators, writers, and marketers often face creative blocks or require assistance in generating ideas and writing drafts.
-**Solution:** Nova assists in brainstorming, generating new ideas, and refining content for various mediums, from articles to marketing materials. Chatbots powered by Nova can serve as virtual writing assistants, suggesting improvements or even drafting full content based on prompts.
+**Solution:** Claire assists in brainstorming, generating new ideas, and refining content for various mediums, from articles to marketing materials. Chatbots powered by Claire can serve as virtual writing assistants, suggesting improvements or even drafting full content based on prompts.
 **Key Benefits:**
 - Accelerated content creation process
 - Improved idea generation and brainstorming
@@ -54,7 +54,7 @@ Nova is a versatile platform with applications across various industries. Here a
 
 ### 4. Legal Document Drafting and Review
 **Problem:** Attorneys and legal professionals often spend significant time drafting legal documents, conducting research, and reviewing legal agreements, which can be time-consuming and prone to human error.
-**Solution:** Nova's AI-powered chatbots can assist attorneys in quickly generating legal drafts, contracts, and agreements based on templates and specific inputs. Additionally, they can help in reviewing legal documents for accuracy, compliance, and potential risks by analyzing language and legal terminology, saving time and improving document quality.
+**Solution:** Claire's AI-powered chatbots can assist attorneys in quickly generating legal drafts, contracts, and agreements based on templates and specific inputs. Additionally, they can help in reviewing legal documents for accuracy, compliance, and potential risks by analyzing language and legal terminology, saving time and improving document quality.
 **Key Benefits:**
 - Rapid generation of legal documents and contracts
 - AI-assisted review for errors, inconsistencies, and compliance issues
@@ -62,10 +62,10 @@ Nova is a versatile platform with applications across various industries. Here a
 - Reduced time spent on repetitive document drafting tasks
 
 
-## Why Nova?
+## Why Claire?
 
-Nova offers unparalleled flexibility and ease of use for chatbot creation. With support for multiple AI providers and a user-friendly design, Nova caters to various needs and skill levels, ensuring a smooth and effective chatbot development experience.
+Claire offers unparalleled flexibility and ease of use for chatbot creation. With support for multiple AI providers and a user-friendly design, Claire caters to various needs and skill levels, ensuring a smooth and effective chatbot development experience.
 
 ---
 
-Explore the features and capabilities of Nova and start building your next chatbot today!
+Explore the features and capabilities of Claire and start building your next chatbot today!

@@ -1,6 +1,6 @@
 ---
 title: "Services and integrations"
-metaTitle: "Nova"
+metaTitle: "Claire"
 metaDescription: "This is the meta description for this page"
 ---
 ## Introduction

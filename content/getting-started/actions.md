@@ -1,6 +1,6 @@
 ---
 title: "Actions"
-metaTitle: "Nova"
+metaTitle: "Claire"
 ---
 
 Actions in AI systems refer to functions or operations that the AI performs in response to specific triggers or events. These actions can vary widely depending on the system’s design, the data it processes, and the webhooks or APIs that enable integration with external platforms. In modern AI applications, actions are often critical in connecting various workflows, such as automating responses, retrieving data, or performing complex computations based on user inputs.
@@ -20,7 +20,7 @@ For example, in a chatbot AI, actions can include:
 
 ## 2.  Creating Action (Step-by-Step Guide)
 
-Creating an action is an essential step in integrating AI workflows with external systems and automating processes. Follow this example to create an action in the Nova app.
+Creating an action is an essential step in integrating AI workflows with external systems and automating processes. Follow this example to create an action in the Claire app.
 
 ### Step 1: Navigate to the Actions Section
 To begin, go to the **Actions** section in the app. This can be found in the main navigation menu.
@@ -83,7 +83,7 @@ If you select **Device**, you will see a form to configure the action. Provide t
 Click **Create** to save the action.
 
 ### Summary
-You have successfully created a new action in the Nova app. Whether you chose a **Webhook** or **Device** action, ensure that all fields are configured correctly and test the action before deploying it to production.
+You have successfully created a new action in the Claire app. Whether you chose a **Webhook** or **Device** action, ensure that all fields are configured correctly and test the action before deploying it to production.
 
 ----------------------------------
 
