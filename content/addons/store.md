@@ -1,6 +1,6 @@
 ---
 title: "Store"
-metaTitle: "Nova"
+metaTitle: "Claire"
 ---
 
 ## Document Search Addon: A Closer Look
@@ -47,7 +47,7 @@ As mentioned, each uploaded document is split into chunks for easy management. E
 - **URL**: A reference URL, if applicable.
 
 #### Chunk Management
-- **Update**: Users can modify the label, description, and URL of each chunk.
+- **Update**: Users can modify the label, description and URL of each chunk.
 - **Delete**: Users can delete chunks as needed.
 - **Replace**: Users can replace the file for the selected chunk, which will update the content accordingly.
 
@@ -59,7 +59,7 @@ As mentioned, each uploaded document is split into chunks for easy management. E
 
 
 ## Semantic Search
-The add-on features a 'Try Search' button, which initiates a semantic search. This advanced search system allows users to search for information across the entire document store. The search is not limited to a single document, meaning that it can scan and return results from any and all documents stored in chunks.
+The addon features a 'Try Search' button, which initiates a semantic search. This advanced search system allows users to search for information across the entire document store. The search is not limited to a single document, meaning that it can scan and return results from any and all documents stored in chunks.
 
 How Semantic Search Works:
 - **Comprehensive Scanning**: When the search is initiated, the system goes over every chunk in the document store to find the most relevant results based on the search query.

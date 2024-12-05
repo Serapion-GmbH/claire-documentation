@@ -1,6 +1,6 @@
 ---
 title: "Usage"
-metaTitle: "Nova"
+metaTitle: "Claire"
 metaDescription: "Learn how to track your monthly usage, monitor token consumption, and filter data by bots in the app."
 ---
 

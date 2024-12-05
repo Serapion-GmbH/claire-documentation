@@ -8,7 +8,7 @@ const config = {
   header: {
     logo: '',
     logoLink: '',
-    title: 'Nova',
+    title: 'Claire',
     githubUrl: '',
     helpUrl: '',
     tweetText: '',
@@ -40,8 +40,8 @@ const config = {
     title: '',
   },
   siteMetadata: {
-    title: 'Nova App Documentation',
-    description: 'Documentation for Nova application',
+    title: 'Claire App Documentation',
+    description: 'Documentation for Claire application',
     ogImage: '',
     docsLocation: '',
     favicon: 'src/components/images/logo-nova.svg',
@@ -49,8 +49,8 @@ const config = {
   pwa: {
     enabled: true,
     manifest: {
-      name: 'Nova App Documentation',
-      short_name: 'NovaDocs',
+      name: 'Claire App Documentation',
+      short_name: 'ClaireDocs',
       start_url: '/',
       background_color: '#716a7e',
       theme_color: '#72688c',

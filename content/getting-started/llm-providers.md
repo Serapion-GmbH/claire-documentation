@@ -134,7 +134,7 @@ If you choose **Microsoft Azure** LLM Provider, you will see a dialog where you 
 Click **Save** to save the LLM Provider.
 
 ### Summary
-You have successfully created a new LLM Provider in the Nova app.
+You have successfully created a new LLM Provider in the Claire app.
 
 ----------------------------------
 

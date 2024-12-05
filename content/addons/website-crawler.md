@@ -1,12 +1,12 @@
 ---
 title: "Website Crawler"
-metaTitle: "Nova"
+metaTitle: "Claire"
 ---
 
-A website crawler is an addon that performs server-side rendering, indexes pages within a domain, and extracts text content from crawled pages. This documentation provides an overview of the web crawler’s functionality, focusing on domain management, background crawling, and link content editing.
+A website crawler is an addon that performs server-side rendering, indexes pages within a domain and extracts text content from crawled pages. This documentation provides an overview of the web crawler’s functionality, focusing on domain management, background crawling and link content editing.
 
 ## 1.Overview
-The web crawler is a tool that allows users to add domains to a list, where the system crawls and fetches links and content from those domains in the background. Users can manage their domains and associated links, edit content, and control the crawling process through a simple interface.
+The web crawler is a tool that allows users to add domains to a list, where the system crawls and fetches links and content from those domains in the background. Users can manage their domains and associated links, edit content and control the crawling process through a simple interface.
 
 ## 2. Features
 

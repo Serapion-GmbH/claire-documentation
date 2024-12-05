@@ -1,6 +1,6 @@
 ---
 title: "Organization Management"
-metaTitle: "Nova"
+metaTitle: "Claire"
 ---
 
 The app provides managing organizations within the system, including updating organization details, inviting members, managing existing members, and viewing available addons.
