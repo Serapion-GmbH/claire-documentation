@@ -1,6 +1,6 @@
 const config = {
   gatsby: {
-    pathPrefix: '/claire-documentation',
+    pathPrefix: '/',
     siteUrl: 'https://serapion-gmbh.github.io',
     gaTrackingId: null,
     trailingSlash: false,
