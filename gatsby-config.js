@@ -83,7 +83,7 @@ if (config.gatsby && !config.gatsby.trailingSlash) {
 }
 
 module.exports = {
-  pathPrefix: "/nova-documentation",
+  pathPrefix: "/claire-documentation",
   siteMetadata: {
     title: config.siteMetadata.title,
     description: config.siteMetadata.description,
