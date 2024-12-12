@@ -4,7 +4,7 @@ title: "Bots"
 
 Bots, particularly AI-powered chatbots, are essential tools in modern applications for automating user interactions, providing support, and performing various tasks. Bots use Large Language Models (LLMs) to generate intelligent responses based on user inputs, making them highly adaptable to a wide range of use cases, from customer support to personal assistants.
 
-Before you create a bot, it is important to first create an **LLM provider**. The LLM provider supplies the AI capabilities that power the bot’s responses. [Learn how to create an LLM provider](/getting-started/llm-providers) before proceeding.
+Before you create a bot, it is important to first create an **LLM provider**. The LLM provider supplies the AI capabilities that power the bot’s responses. [Learn how to create an LLM provider](../../getting-started/llm-providers) before proceeding.
 
 ----------------------------------
 
@@ -131,4 +131,4 @@ While bots bring many benefits, there are also challenges that need to be addres
 
 Bots, powered by LLMs, are highly versatile tools for automating user interactions and enhancing customer experiences. With the ability to personalize responses, handle complex queries, and operate around the clock, bots provide significant value in various AI applications.
 
-By carefully configuring the bot’s fields and thoroughly testing it during creation, you can ensure it performs well in real-world scenarios and meets the needs of your users. Don’t forget to first set up an LLM provider to unlock the full potential of your bot. [Learn more about LLM providers](/getting-started/llm-providers).
+By carefully configuring the bot’s fields and thoroughly testing it during creation, you can ensure it performs well in real-world scenarios and meets the needs of your users. Don’t forget to first set up an LLM provider to unlock the full potential of your bot. [Learn more about LLM providers](../../getting-started/llm-providers).

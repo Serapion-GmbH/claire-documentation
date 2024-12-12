@@ -39,7 +39,7 @@ With your organization set up, the next step is to add your LLM (Large Language 
 4. **Configure Settings**: Set any additional configurations required by the provider.
 5. **Save**: Click “Save” to store your API key.
 
-For more details, visit [Learn how to create an LLM provider](/getting-started/llm-providers).
+For more details, visit [Learn how to create an LLM provider](../getting-started/llm-providers).
 
 ## 3. Create Your First Chatbot
 
@@ -49,7 +49,7 @@ Start by logging into Claire’s dashboard and selecting the option to create a 
 - **Define its purpose** (e.g., customer service bot, assistant, or information provider).
 - **Optionally, customize** how the chatbot should respond—whether it should have a formal tone, a friendly style, or something else.
 
-For more details, visit [Learn how to create a Chatbot](/getting-started/bots).
+For more details, visit [Learn how to create a Chatbot](../getting-started/bots).
 
 ## 4. Connect an AI Provider
 
