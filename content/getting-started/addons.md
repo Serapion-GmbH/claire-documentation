@@ -66,7 +66,7 @@ Installing and managing addons is a straightforward process. Follow these steps 
 Navigate to the **Addons** section in the app. This section can be found in the main navigation menu.
 
 <div style="text-align: center;">
-  <img src="../images/navigate-addons.png" alt="Addons Section" />
+  <img src="../images/navigate-claire-addons.png" alt="Addons Section" />
   <p><em>Navigate to the Addons section in the app</em></p>
 </div>
 

@@ -26,7 +26,7 @@ Creating an action is an essential step in integrating AI workflows with externa
 To begin, go to the **Actions** section in the app. This can be found in the main navigation menu.
 
 <div style="text-align: center;">
-  <img src="../images/navigate-actions.png" alt="Navigate to Actions Section" />
+  <img src="../images/navigate-claire-actions.png" alt="Navigate to Actions Section" />
   <p><em>Navigate to the Actions section</em></p>
 </div>
 

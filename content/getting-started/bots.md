@@ -58,7 +58,7 @@ Follow these steps to create a simple chatbot in the application:
 Go to the **Bots** section in the app.
 
 <div style="text-align: center;">
-  <img src="../images/navigate-bots.png" alt="Navigate to Bots" />
+  <img src="../images/navigate-claire-bots.png" alt="Navigate to Bots" />
   <p><em>Navigate to the Bots section</em></p>
 </div>
 
@@ -99,7 +99,7 @@ You can also configure advanced settings such as:
 - **Create Button**: Save new Chatbot by clicking the **Create** button.
 
 ### Testing:
-When you create a bot, a **Try** button will appear. You can use this button to test your new chatbot and see how it interacts based on the configurations you've set.
+When you create a bot, a **Test** button will appear. You can use this button to test your new chatbot and see how it interacts based on the configurations you've set.
 
 <div style="text-align: center;">
   <img src="../images/test-botchat-example.png" alt="Test Chatbot Example" />
