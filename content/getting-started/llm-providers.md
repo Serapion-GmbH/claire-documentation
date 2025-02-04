@@ -62,7 +62,7 @@ Consider these factors when choosing an LLM provider:
 To begin, go to the **LLM Providers** section in the app. This can be found in the main navigation menu.
 
 <div style="text-align: center;">
-  <img src="../images/navigate-llm-providers.png" alt="Navigate to LLM Providers Section" />
+  <img src="../images/navigate-claire-llm-providers.png" alt="Navigate to LLM Providers Section" />
   <p><em>Navigate to the LLM Providers section</em></p>
 </div>
 
