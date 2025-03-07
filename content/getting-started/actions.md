@@ -39,12 +39,14 @@ In the **Actions** section, click the **"+"** button in the top-right corner to 
 </div>
 
 ### Step 3: Select the Action Type
-After clicking the "+" button, you can choose between **Webhook**, **Device** and **LLM** actions.
+#### 3.1. After clicking the "+ New" button, you can choose between **Webhook**, **Device** and **LLM** actions.
 
 <div style="text-align: center;">
-  <img src="../images/select-action-type.png" alt="Select Action Type" />
-  <p><em>Select the action type: Webhook or Device</em></p>
+  <img src="../images/action-options.png" alt="Select Action Type" />
+  <p><em>Select the action type: Webhook, Device or LLM</em></p>
 </div>
+
+#### 3.2. After clicking the "Swagger import", you can enter Swagger URL.
 
 ### Step 4: Configure Action Form
 #### Configure the Webhook Action Form (if selected)
