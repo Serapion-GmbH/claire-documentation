@@ -31,15 +31,15 @@ To begin, go to the **Actions** section in the app. This can be found in the mai
 </div>
 
 ### Step 2: Click the "+" Button
-In the **Actions** section, click the **"+"** button in the top-right corner to start creating a new action.
+In the **Actions** section, click the **"+"** button in the top-right corner to start creating a new action, or to add Swagger import.
 
 <div style="text-align: center;">
-  <img src="../images/click-plus-button.png" alt="Click the '+' Button" />
-  <p><em>Click the '+' button to add a new action</em></p>
+  <img src="../images/Add-actions.png" alt="Click the '+' Button" />
+  <p><em>Click the '+' button to add a new action or to add Swagger import</em></p>
 </div>
 
 ### Step 3: Select the Action Type
-After clicking the "+" button, you can choose between **Webhook** and **Device** actions.
+After clicking the "+" button, you can choose between **Webhook**, **Device** and **LLM** actions.
 
 <div style="text-align: center;">
   <img src="../images/select-action-type.png" alt="Select Action Type" />
