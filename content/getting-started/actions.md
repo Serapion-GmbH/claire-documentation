@@ -94,7 +94,7 @@ Click **Create** to save the action.
 
 ### Step 6: Configure the LLM action (if selected)
 
-If you select **LLM** you wil see a form to configure the  LLM action. Provide the following details: 
+If you select **LLM**, you will see a form to configure the LLM action. Provide the following details: 
 
 - **Action name**: A unique name for the action.
 - **Description**: A brief explanation of what the action accomplishes.
@@ -103,9 +103,23 @@ If you select **LLM** you wil see a form to configure the  LLM action. Provide t
 - **Select a provider**: Choose between the offered providers.
 
   <div style="text-align: center;">
-  <img src="../images/device-action.png" alt="Device Action Form" />
-  <p><em>Example of a Device action form</em></p>
+  <img src="../images/LLM-action.png" alt="Device Action Form" />
+  <p><em>Example of a LLM action form</em></p>
 </div>
+
+Click **Create** to save the action.
+
+### Step 7: Swagger import
+
+If you select **Swagger import**, you will see a form to configure Swagger import action. Provide the following details:
+
+- **Swagger URL**: Enter swagger URL into the field.
+
+  <div style="text-align: center;">
+  <img src="../images/device-action.png" alt="Device Action Form" />
+  <p><em>Example of a Swagger URL form</em></p>
+</div>
+
 
 ### Summary
 You have successfully created a new action in the Claire app. Whether you chose a **Webhook**, **Device** or **LLM** action, ensure that all fields are configured correctly and test the action before deploying it to production.
