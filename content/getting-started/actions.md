@@ -65,7 +65,7 @@ If you choose **Webhook** as the action type, you will see a dialog where you ca
 - **REST Method**: The HTTP method (e.g., GET, POST) to use when calling the action.
 - **URL**: The URL to be called when this action is triggered.
 - **Headers** (optional): You can include optional HTTP headers that the action will send in the request. These headers can provide important metadata, such as authentication tokens or content type information.
-  - **Add Header**: Click the **"Add Header"** button to enter a **header key** and **value**. You can add multiple headers by clicking "Add Header" again.
+  - Enter a **header key** and **value**. You can add multiple headers by clicking "+ button".
   - Example header keys and values:
     - **Content-Type**: Defines the format of the data being sent, such as `application/json`.
     - **Authorization**: Provides credentials required for authentication, such as `Bearer your-token-here`.
@@ -120,9 +120,10 @@ If you select **Swagger import**, you will see a form to configure Swagger impor
   <p><em>Example of a Swagger URL form</em></p>
 </div>
 
+Click **Import** to save the action.
 
 ### Summary
-You have successfully created a new action in the Claire app. Whether you chose a **Webhook**, **Device** or **LLM** action, ensure that all fields are configured correctly and test the action before deploying it to production.
+You have successfully created a new action in the Claire app. Whether you chose a **Webhook**, **Device**, **LLM** action or **Swagger import**, ensure that all fields are configured correctly and test the action before deploying it to production.
 
 ----------------------------------
 
