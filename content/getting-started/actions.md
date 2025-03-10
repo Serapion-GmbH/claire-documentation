@@ -116,7 +116,7 @@ If you select **Swagger import**, you will see a form to configure Swagger impor
 - **Swagger URL**: Enter swagger URL into the field.
 
   <div style="text-align: center;">
-  <img src="../images/device-action.png" alt="Device Action Form" />
+  <img src="../images/import-swagger.png" alt="Device Action Form" />
   <p><em>Example of a Swagger URL form</em></p>
 </div>
 
