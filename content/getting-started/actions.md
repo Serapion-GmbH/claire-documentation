@@ -34,7 +34,7 @@ To begin, go to the **Actions** section in the app. This can be found in the mai
 In the **Actions** section, click the **"+"** button in the top-right corner to start creating a new action, or to add Swagger import.
 
 <div style="text-align: center;">
-  <img src="../images/Add-actions.png" alt="Click the '+' Button" />
+  <img src="../images/new-action.png" alt="Click the '+' Button" />
   <p><em>Click the '+' button to add a new action or to add Swagger import</em></p>
 </div>
 
