@@ -71,7 +71,7 @@ Once you have obtained your API key, you need to configure it in the app to enab
 - **Expired Keys**: If you encounter issues related to API key expiration, regenerate the key and update it in the app.
 - **Access Denied**: If you receive access errors, verify that the API key is correctly configured and has the necessary permissions.
 
-## 6. Required Network Endpoints
+## 5. Required Network Endpoints
 
 In order for the application to function properly, the following endpoints must be accessible:
 
@@ -91,7 +91,7 @@ In order for the application to function properly, the following endpoints must 
 
 > **Note:** Ensure these endpoints are reachable and not blocked by any firewall, proxy, or browser restrictions. Blocking any of these may result in limited or broken functionality within the app.
 
-## 5. Conclusion
+## 6. Conclusion
 
 Obtaining and configuring an API key is a crucial step for integrating AI services into your application. By following the steps outlined in this guide, you can ensure that you have the necessary credentials to access and utilize AI capabilities effectively. 
 
