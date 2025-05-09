@@ -31,20 +31,29 @@ To begin, go to the **Actions** section in the app. This can be found in the mai
 </div>
 
 ### Step 2: Click the "+" Button
-In the **Actions** section, click the **"+"** button in the top-right corner to start creating a new action.
+In the **Actions** section, click the **"+"** button in the top-right corner to start creating a new action, or to add Swagger import.
 
 <div style="text-align: center;">
-  <img src="../images/click-plus-button.png" alt="Click the '+' Button" />
-  <p><em>Click the '+' button to add a new action</em></p>
+  <img src="../images/new-action.png" alt="Click the '+' Button" />
+  <p><em>Click the '+' button to add a new action or to add Swagger import</em></p>
 </div>
 
 ### Step 3: Select the Action Type
-After clicking the "+" button, you can choose between **Webhook** and **Device** actions.
+#### 3.1. After clicking the "+ New" button, you can choose between **Webhook**, **Device** and **LLM** actions.
 
 <div style="text-align: center;">
-  <img src="../images/select-action-type.png" alt="Select Action Type" />
-  <p><em>Select the action type: Webhook or Device</em></p>
+  <img src="../images/action-options.png" alt="Select Action Type" />
+  <p><em>Select the action type: Webhook, Device or LLM</em></p>
 </div>
+
+
+#### 3.2. After clicking the "Swagger import", you can enter Swagger URL.
+
+<div style="text-align: center;">
+  <img src="../images/swagger-import.png" alt="Select Action Type" />
+  <p><em>Enter swagger URL into input field</em></p>
+</div>
+
 
 ### Step 4: Configure Action Form
 #### Configure the Webhook Action Form (if selected)
@@ -56,15 +65,16 @@ If you choose **Webhook** as the action type, you will see a dialog where you ca
 - **REST Method**: The HTTP method (e.g., GET, POST) to use when calling the action.
 - **URL**: The URL to be called when this action is triggered.
 - **Headers** (optional): You can include optional HTTP headers that the action will send in the request. These headers can provide important metadata, such as authentication tokens or content type information.
-  - **Add Header**: Click the **"Add Header"** button to enter a **header key** and **value**. You can add multiple headers by clicking "Add Header" again.
+  - Enter a **header key** and **value**. You can add multiple headers by clicking "+ button".
   - Example header keys and values:
     - **Content-Type**: Defines the format of the data being sent, such as `application/json`.
     - **Authorization**: Provides credentials required for authentication, such as `Bearer your-token-here`.
 
-![Webhook Action Form](../images/webhook-action-example-form.png)
+![Webhook Action Form](../images/webhook-action.png)
 
 - **Create Button**: Save the action configuration by clicking the **Create** button.
-- **Try Button**: Test the action by clicking the **Try** button.
+- **Test Button**: Test the action by clicking the **Test** button.
+- **Cancel Button**: Cancel the action by clicking the **Cancel** button.
 
 ### Step 5: Configure the Device Action (if selected)
 
@@ -75,15 +85,45 @@ If you select **Device**, you will see a form to configure the action. Provide t
 - **JSON Schema (optional)**: Define parameters for the device action using a JSON schema.
 
 <div style="text-align: center;">
-  <img src="../images/device-action-example-form.png" alt="Device Action Form" />
-  <p><em>Example of a filled-out Device action form</em></p>
+  <img src="../images/device-action.png" alt="Device Action Form" />
+  <p><em>Example of a Device action form</em></p>
 </div>
 
 
 Click **Create** to save the action.
 
+### Step 6: Configure the LLM action (if selected)
+
+If you select **LLM**, you will see a form to configure the LLM action. Provide the following details: 
+
+- **Action name**: A unique name for the action.
+- **Description**: A brief explanation of what the action accomplishes.
+- **System prompt**:
+- **JSON schema**: Define parameters for the device action using a JSON schema.
+- **Select a provider**: Choose between the offered providers.
+
+  <div style="text-align: center;">
+  <img src="../images/LLM-action.png" alt="Device Action Form" />
+  <p><em>Example of a LLM action form</em></p>
+</div>
+
+Click **Create** to save the action.
+
+### Step 7: Swagger import
+
+If you select **Swagger import**, you will see a form to configure Swagger import action. Provide the following details:
+
+- **Swagger URL**: Enter swagger URL into the field.
+
+  <div style="text-align: center;">
+  <img src="../images/import-swagger.png" alt="Device Action Form" />
+  <p><em>Example of a Swagger URL form</em></p>
+</div>
+
+Click **Import** to save the action.
+
 ### Summary
-You have successfully created a new action in the Claire app. Whether you chose a **Webhook** or **Device** action, ensure that all fields are configured correctly and test the action before deploying it to production.
+You have successfully created a new action in the Claire app. Whether you chose a **Webhook**, **Device**, **LLM** action or **Swagger import**, ensure that all fields are configured correctly and test the action before deploying it to production.
 
 ----------------------------------
 
