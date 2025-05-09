@@ -71,8 +71,33 @@ Once you have obtained your API key, you need to configure it in the app to enab
 - **Expired Keys**: If you encounter issues related to API key expiration, regenerate the key and update it in the app.
 - **Access Denied**: If you receive access errors, verify that the API key is correctly configured and has the necessary permissions.
 
-## 5. Conclusion
+## 5. Required Network Endpoints
 
-Obtaining and configuring an API key is a crucial step for integrating AI services into your application. By following the steps outlined in this guide, you can ensure that you have the necessary credentials to access and utilize AI capabilities effectively. Securely manage your API keys and regularly monitor their usage to maintain the integrity and security of your integrations.
+In order for the application to function properly, the following endpoints must be accessible:
 
-For further assistance with API keys or integration issues, refer to the documentation provided by your AI service provider or contact their support team for help.
+- `serapion-gmbh.github.io (Claire Docs)`
+- `www.google.com (ReCaptcha)`
+- `www.gstatic.com`
+- `serapion-demo.eu.auth0.com`
+- `cdn.auth0.com`
+- `serapion.net`
+- `platform.nova-ai.de`
+- `store.nova-ai.de`
+- `demo-chat.nova-ai.de`
+- `api-core.nova-ai.de`
+- `api-store.nova-ai.de`
+- `api-crawler.nova-ai.de`
+- `crawler.nova-ai.de`
+
+> **Note:** Ensure these endpoints are reachable and not blocked by any firewall, proxy, or browser restrictions. Blocking any of these may result in limited or broken functionality within the app.
+
+## 6. Conclusion
+
+Obtaining and configuring an API key is a crucial step for integrating AI services into your application. By following the steps outlined in this guide, you can ensure that you have the necessary credentials to access and utilize AI capabilities effectively. 
+
+In addition to proper API key setup, make sure your network allows access to all required endpoints to ensure full functionality of the app.
+
+Securely manage your API keys and regularly monitor their usage to maintain the integrity and security of your integrations.
+
+For further assistance with API keys, integration issues, or connectivity problems, refer to the documentation provided by your AI service provider or contact their support team for help.
+
