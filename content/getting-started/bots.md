@@ -95,17 +95,35 @@ You can also configure advanced settings such as:
   <p><em>Advanced settings for configuring the bot</em></p>
 </div>
 
-### Step 5:
-- **Create Button**: Save new Chatbot by clicking the **Create** button.
+### Step 5: Configure Bot Status, Suggested Prompts, and Actions
 
-### Testing:
+- **Status**: By default, bots are created in **Draft** status. You can change the status to **Public**, **Internal**, or **Archive** after bot is created.
+- **Actions**: Select one or more actions you want the bot to perform. A list of available actions will be shown for you to choose from.
+- **Suggested Prompts** *(Optional)*: Add suggested prompts that will appear below the input field in the chatbot. To add new promt, click on **New**. Each suggested prompts includes:
+  - **Icon**
+  - **Title**
+  - **Description**
+
+<div style="text-align: center;">
+  <img width="337" alt="Bot Status and Actions Example" src="https://github.com/user-attachments/assets/869c6c2a-4b6d-49e7-8dc8-3d8c9441b6bc" />
+  <p><em>Configure status, Suggested Prompts, and connect actions to the bot</em></p>
+  <img width="328" alt="Suggested Prompts" src="https://github.com/user-attachments/assets/eb76f864-c35b-42ce-b294-847ad371cea4" />
+  <p><em>Suggested Prompts</em></p>
+</div>
+
+### Steo 6: Testing
 When you create a bot, a **Test** button will appear. You can use this button to test your new chatbot and see how it interacts based on the configurations you've set.
 
 <div style="text-align: center;">
-  <img src="../images/test-botchat-example.png" alt="Test Chatbot Example" />
+  <img width="522" alt="Test_button" src="https://github.com/user-attachments/assets/5306a736-679a-46c7-b02f-156d94a56094" />
   <p><em>Example of the Try button and test chat interface for the new chatbot</em></p>
+  <img width="831" alt="Test_Chatbot" src="https://github.com/user-attachments/assets/58b14773-7d13-4380-b730-a45b02f2ac7e" />
+  <p><em>Test Chatbot</em></p>
+
 </div>
 
+### Step 7: Save 
+- **Create Button**: Save new Chatbot by clicking the **Create** button.
 ----------------------------------
 
 ## 4. Benefits of Using Bots
