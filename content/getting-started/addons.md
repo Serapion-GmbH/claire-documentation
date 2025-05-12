@@ -74,33 +74,65 @@ Navigate to the **Addons** section in the app. This section can be found in the 
 In the Addons section, browse or use the search function to find the addon you want to install (e.g., Document Search Addon).
 
 <div style="text-align: center;">
-  <img src="../images/click-plus-addons.png" alt="Browse or Search Addon" />
+<img width="884" alt="Browse_or_Search_Addon" src="https://github.com/user-attachments/assets/b12c48dd-5b17-47e9-95a4-6cdc1ab71716" />
   <p><em>Browse or search for the desired addon</em></p>
 </div>
 
-### Step 3: Click the "Add action" Button
+### Step 3: Click the "Add" Button
 
 <div style="text-align: center;">
-  <img src="../images/add-action-button.png" alt="Add action" />
-  <p><em>"Add action" button to begin addon activation</em></p>
+<img width="374" alt="Add" src="https://github.com/user-attachments/assets/68e06336-b7c1-4d1b-bf9d-76a7d1b2097b" />
 </div>
 
 ### Step 4: Configure the Addon
-Follow the on-screen instructions to configure the addon. This may include setting up required configurations.
+Follow the on-screen instructions to configure the addon. This may include setting up required configurations. Once you configured Addon click **"Next"** button. 
 
 <div style="text-align: center;">
-  <img src="../images/configure-addon.png" alt="Configure Addon" />
-  <p><em>Configure the addon</em></p>
+ <img width="828" alt="Addon Settings" src="https://github.com/user-attachments/assets/d7ba96fc-8f19-4a36-a5a5-e7bd9e992fbc" />
+    <p><em>Configure the addon</em></p>
 </div>
 
-### Step 5: Activate the Addon
-After configuration, activate the addon by clicking **"Save"** button. This will make the addon available for use within the AI system. By clicking the 'Go to Addon' button, you can view more details about the selected addon.
+
+### Step 5: Add Actions
+
+Click the **"Add Action"** button to create one or more custom actions for the addon.  
+> **Note:** At least one action is required for the addon to function properly.
 
 <div style="text-align: center;">
-  <img src="../images/activate-addon-go-to-addon.png" alt="Activate Addon" />
-  <p><em>Activated addon and 'Go to addon' button</em></p>
+<img width="548" alt="Add_Action" src="https://github.com/user-attachments/assets/15158a17-c14d-41f3-ace0-3499fa92dcec" />
+  <p><em>Add a new action to your addon</em></p>
 </div>
 
+When adding an action, provide the following:
+- **Action Name**
+- **Description**
+
+Click **"Save"** to confirm and register the action.
+
+<div style="text-align: center;">
+  <img width="478" alt="New__Action" src="https://github.com/user-attachments/assets/9adeee5d-be0a-4ade-8f6e-4f521068f093" />
+  <p><em>Add a new action to your addon</em></p>
+</div>
+
+
+### Step 6: Use the Addon's Workspace
+
+After creating actions, proceed to the **third tab**, which serves as the functional workspace for the selected addon. This area varies depending on the type of addon:
+
+- For the **Store Addon**, you can **upload documents** that will be indexed and searched by the bot.
+- For the **Website Crawler Addon**, enter **website URLs** to initiate crawling and extract website data.
+
+Once you've completed setup, click the **"Save"** button to activate the addon. You can then click **"Go to Addon"** to manage or view the configured addon in more detail.
+
+<div style="text-align: center;">
+<img width="526" alt="Store Workspace" src="https://github.com/user-attachments/assets/9fc045d6-d2b8-450a-952e-a02776b224c9" />
+  <p><em>Store Documents</em></p>
+</div>
+<div style="text-align: center;">
+<img width="541" alt="Website_Crawler" src="https://github.com/user-attachments/assets/084cce04-a7a5-4d93-905d-ba070085791f" />
+
+  <p><em>Website Crawler</em></p>
+</div>
 
 ### Summary
 You have successfully installed and activated an addon. The addon is now available for use within the AI system. You can integrate it into your workflows or use it as needed.
@@ -114,10 +146,6 @@ While addons offer powerful capabilities, there are some challenges and consider
 - **Security**: Since addons often interact with external systems, it’s important to ensure they meet your organization’s security standards to avoid potential vulnerabilities.
 - **Performance**: Depending on the addon, there may be performance impacts, particularly if the addon processes large datasets or integrates with multiple external services.
 
-## How to Create Addons
-
-1. **Go to the Addons section** in the app.
-2. Click the **"+"** button.
 
 ## Conclusion
 
