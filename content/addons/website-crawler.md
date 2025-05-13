@@ -26,10 +26,8 @@ When a domain is added to the system, crawling and fetching links occur in the b
 - **Stop Crawling**: Users can stop the background crawling process at any time by clicking a dedicated button next to the domain in the list.
 
 <div style="text-align: center;">
-<img width="538" alt="Background_crawling" src="https://github.com/user-attachments/assets/b9eaa7f7-be68-464d-88e4-96b85b6f7410" />
-
+  <img width="538" alt="Background_crawling" src="https://github.com/user-attachments/assets/b9eaa7f7-be68-464d-88e4-96b85b6f7410" />
   <p><em>Background crawling</em></p>
-
 </div>
 
 
