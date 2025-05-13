@@ -56,8 +56,7 @@ As mentioned, each uploaded document is split into chunks for easy management. E
 The addon features a 'Test' button, which initiates a semantic search. This advanced search system allows users to search for information across the entire document store. The search is not limited to a single document, meaning that it can scan and return results from any and all documents stored in chunks.
 
 <div style="text-align: center;">
-<img width="566" alt="Test_button" src="https://github.com/user-attachments/assets/dbf0386a-dee6-4890-a9f8-a938448f4de0" />
-
+  <img width="566" alt="Test_button" src="https://github.com/user-attachments/assets/dbf0386a-dee6-4890-a9f8-a938448f4de0" />
   <p><em>Test button</em></p>
 </div>
 
@@ -66,7 +65,7 @@ How Semantic Search Works:
 - **Deep Understanding**: The semantic search analyzes the meaning behind the search query, providing more accurate and relevant results compared to a standard keyword search.
 
 <div style="text-align: center;">
-<img width="535" alt="Semantic_search" src="https://github.com/user-attachments/assets/7e8c5c25-e8b6-441b-b2d6-a405aa546608" />
+  <img width="535" alt="Semantic_search" src="https://github.com/user-attachments/assets/7e8c5c25-e8b6-441b-b2d6-a405aa546608" />
   <p><em>Semantic search</em></p>
 </div>
 
