@@ -119,10 +119,9 @@ When you create a bot, a **Test** button will appear. You can use this button to
   <p><em>Example of the Try button and test chat interface for the new chatbot</em></p>
   <img width="831" alt="Test_Chatbot" src="https://github.com/user-attachments/assets/58b14773-7d13-4380-b730-a45b02f2ac7e" />
   <p><em>Test Chatbot</em></p>
-
 </div>
 
-### Step 7: Save 
+### Step 7: Save
 - **Create Button**: Save new Chatbot by clicking the **Create** button.
 ----------------------------------
 
