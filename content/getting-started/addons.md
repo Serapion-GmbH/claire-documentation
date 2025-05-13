@@ -85,7 +85,7 @@ In the Addons section, browse or use the search function to find the addon you w
 </div>
 
 ### Step 4: Configure the Addon
-Follow the on-screen instructions to configure the addon. This may include setting up required configurations. Once you configured Addon click **"Next"** button. 
+Follow the on-screen instructions to configure the addon. This may include setting up required configurations. Once you configured Addon click **"Next"** button.
 
 <div style="text-align: center;">
  <img width="828" alt="Addon Settings" src="https://github.com/user-attachments/assets/d7ba96fc-8f19-4a36-a5a5-e7bd9e992fbc" />
@@ -95,7 +95,7 @@ Follow the on-screen instructions to configure the addon. This may include setti
 
 ### Step 5: Add Actions
 
-Click the **"Add Action"** button to create one or more custom actions for the addon.  
+Click the **"Add Action"** button to create one or more custom actions for the addon.
 > **Note:** At least one action is required for the addon to function properly.
 
 <div style="text-align: center;">
@@ -130,7 +130,6 @@ Once you've completed setup, click the **"Save"** button to activate the addon. 
 </div>
 <div style="text-align: center;">
 <img width="541" alt="Website_Crawler" src="https://github.com/user-attachments/assets/084cce04-a7a5-4d93-905d-ba070085791f" />
-
   <p><em>Website Crawler</em></p>
 </div>
 
